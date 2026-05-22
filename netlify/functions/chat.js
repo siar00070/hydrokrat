@@ -1,47 +1,64 @@
-```javascript id="0a1xjlwm"
-async function sendMessage(){
+exports.handler = async function(event) {
 
-    const message = userInput.value.trim();
+  try {
 
-    if(!message) return;
+    const { message } = JSON.parse(event.body);
 
-    addUserMessage(message);
+    const response = await fetch("https://api.openai.com/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${process.env.OPENAI_API_KEY}`
+      },
+      body: JSON.stringify({
+        model: "gpt-4o-mini",
+        messages: [
+          {
+            role: "system",
+            content: `
+You are Hydrokrat AI Assistant.
 
-    userInput.value = "";
+Hydrokrat Ventures is an authorized KSB pumps distributor in Tamil Nadu.
 
-    showTyping();
+You help customers with:
+- Fire Fighting Pumps
+- HVAC Pumps
+- Booster Systems
+- Water Transfer Pumps
+- Industrial Pump Solutions
 
-    try{
+Reply professionally like a sales engineer.
+Keep replies short, clear, and professional.
+Always encourage WhatsApp enquiry for quotations.
+`
+          },
+          {
+            role: "user",
+            content: message
+          }
+        ],
+        temperature: 0.7
+      })
+    });
 
-        const response = await fetch("/.netlify/functions/chat",{
-            method:"POST",
-            headers:{
-                "Content-Type":"application/json"
-            },
-            body: JSON.stringify({
-                message: message
-            })
-        });
+    const data = await response.json();
 
-        const data = await response.json();
+    return {
+      statusCode: 200,
+      body: JSON.stringify({
+        reply: data.choices[0].message.content
+      })
+    };
 
-        removeTyping();
+  } catch (error) {
 
-        if(data.reply){
-            addBotMessage(data.reply);
-        } else {
-            addBotMessage("AI response unavailable.");
-        }
+    return {
+      statusCode: 500,
+      body: JSON.stringify({
+        error: error.message
+      })
+    };
 
-    }catch(error){
+  }
 
-        removeTyping();
-
-        addBotMessage("Server connection error.");
-
-        console.error(error);
-
-    }
-
-}
-```
+};
