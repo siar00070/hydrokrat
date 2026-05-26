@@ -1,0 +1,96 @@
+[
+  {
+    "family": "Fire Fighting",
+    "file": "firefighting_models.json"
+  },
+
+  {
+    "family": "HVAC",
+    "file": "building_services_models.json"
+  },
+
+  {
+    "family": "Pressure Boosting",
+    "file": "moviboost_models.json"
+  },
+
+  {
+    "family": "Domestic Water Supply",
+    "file": "cora_models.json"
+  },
+
+  {
+    "family": "Agriculture",
+    "file": "agribloc_models.json"
+  },
+
+  {
+    "family": "Borewell Pumps",
+    "file": "upa_models.json"
+  },
+
+  {
+    "family": "Drainage & Dewatering",
+    "file": "drainage_dewatering_models.json"
+  },
+
+  {
+    "family": "Industrial Process",
+    "file": "industrial_process_models.json"
+  },
+
+  {
+    "family": "Chemical Process",
+    "file": "chemical_process_models.json"
+  },
+
+  {
+    "family": "Water Transport",
+    "file": "water_transport_models.json"
+  },
+
+  {
+    "family": "Municipal Water",
+    "file": "municipal_water_models.json"
+  },
+
+  {
+    "family": "Mining & Slurry",
+    "file": "mining_slurry_models.json"
+  },
+
+  {
+    "family": "RO & Desalination",
+    "file": "ro_desalination_models.json"
+  },
+
+  {
+    "family": "Oil & Gas",
+    "file": "oil_gas_models.json"
+  },
+
+  {
+    "family": "Marine & Offshore",
+    "file": "marine_offshore_models.json"
+  },
+
+  {
+    "family": "Food & Pharma",
+    "file": "food_pharma_models.json"
+  },
+
+  {
+    "family": "Power & Energy",
+    "file": "power_energy_models.json"
+  },
+
+  {
+    "family": "Automation & Monitoring",
+    "file": "automation_monitoring_models.json"
+  },
+
+  {
+    "family": "Utility Applications",
+    "file": "utility_general_models.json"
+  }
+]

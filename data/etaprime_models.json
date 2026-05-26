@@ -1,0 +1,127 @@
+[
+  {
+    "pump_model": "Etaprime B 40-200",
+    "series": "Etaprime",
+
+    "flow_min": 8,
+    "flow_max": 35,
+
+    "head_min": 10,
+    "head_max": 42,
+
+    "bep_flow": 20,
+    "bep_head": 28,
+
+    "efficiency": 64,
+
+    "motor_kw": 4
+  },
+
+  {
+    "pump_model": "Etaprime B 50-250",
+    "series": "Etaprime",
+
+    "flow_min": 15,
+    "flow_max": 60,
+
+    "head_min": 12,
+    "head_max": 55,
+
+    "bep_flow": 35,
+    "bep_head": 36,
+
+    "efficiency": 70,
+
+    "motor_kw": 7.5
+  },
+
+  {
+    "pump_model": "Etaprime B 65-315",
+    "series": "Etaprime",
+
+    "flow_min": 25,
+    "flow_max": 110,
+
+    "head_min": 15,
+    "head_max": 68,
+
+    "bep_flow": 60,
+    "bep_head": 46,
+
+    "efficiency": 76,
+
+    "motor_kw": 15
+  },
+
+  {
+    "pump_model": "Etaprime B 80-315",
+    "series": "Etaprime",
+
+    "flow_min": 40,
+    "flow_max": 180,
+
+    "head_min": 18,
+    "head_max": 82,
+
+    "bep_flow": 95,
+    "bep_head": 56,
+
+    "efficiency": 80,
+
+    "motor_kw": 22
+  },
+
+  {
+    "pump_model": "Etaprime B 100-400",
+    "series": "Etaprime",
+
+    "flow_min": 70,
+    "flow_max": 320,
+
+    "head_min": 20,
+    "head_max": 98,
+
+    "bep_flow": 160,
+    "bep_head": 68,
+
+    "efficiency": 84,
+
+    "motor_kw": 37
+  },
+
+  {
+    "pump_model": "Etaprime B 125-500",
+    "series": "Etaprime",
+
+    "flow_min": 120,
+    "flow_max": 520,
+
+    "head_min": 25,
+    "head_max": 115,
+
+    "bep_flow": 260,
+    "bep_head": 80,
+
+    "efficiency": 86,
+
+    "motor_kw": 55
+  },
+
+  {
+    "pump_model": "Etaprime B 150-630",
+    "series": "Etaprime",
+
+    "flow_min": 220,
+    "flow_max": 820,
+
+    "head_min": 28,
+    "head_max": 135,
+
+    "bep_flow": 420,
+    "bep_head": 95,
+
+    "efficiency": 88,
+
+    "motor_kw": 110
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "pump_model": "Agribloc",
+    "series": "Agribloc",
+
+    "application": "Agriculture",
+    "type": "Self Priming Monobloc",
+
+    "catalogue_pages": "23-26",
+
+    "source_pdf": "ksb domestic and agri pumps(3).pdf"
+  },
+
+  {
+    "pump_model": "Agribloc ZE",
+    "series": "Agribloc ZE",
+
+    "application": "Agriculture",
+    "type": "Self Priming Monobloc",
+
+    "catalogue_pages": "23-26",
+
+    "source_pdf": "ksb domestic and agri pumps(3).pdf"
+  }
+]

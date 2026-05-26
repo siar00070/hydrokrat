@@ -1,0 +1,127 @@
+[
+  {
+    "pump_model": "Hydrovac 32-160",
+    "series": "Hydrovac",
+
+    "flow_min": 3,
+    "flow_max": 15,
+
+    "head_min": 12,
+    "head_max": 42,
+
+    "bep_flow": 8,
+    "bep_head": 28,
+
+    "efficiency": 58,
+
+    "motor_kw": 1.5
+  },
+
+  {
+    "pump_model": "Hydrovac 40-200",
+    "series": "Hydrovac",
+
+    "flow_min": 6,
+    "flow_max": 28,
+
+    "head_min": 18,
+    "head_max": 58,
+
+    "bep_flow": 16,
+    "bep_head": 38,
+
+    "efficiency": 64,
+
+    "motor_kw": 3
+  },
+
+  {
+    "pump_model": "Hydrovac 50-250",
+    "series": "Hydrovac",
+
+    "flow_min": 10,
+    "flow_max": 45,
+
+    "head_min": 22,
+    "head_max": 72,
+
+    "bep_flow": 26,
+    "bep_head": 48,
+
+    "efficiency": 70,
+
+    "motor_kw": 5.5
+  },
+
+  {
+    "pump_model": "Hydrovac 65-315",
+    "series": "Hydrovac",
+
+    "flow_min": 18,
+    "flow_max": 70,
+
+    "head_min": 28,
+    "head_max": 92,
+
+    "bep_flow": 42,
+    "bep_head": 62,
+
+    "efficiency": 76,
+
+    "motor_kw": 11
+  },
+
+  {
+    "pump_model": "Hydrovac 80-400",
+    "series": "Hydrovac",
+
+    "flow_min": 28,
+    "flow_max": 110,
+
+    "head_min": 35,
+    "head_max": 120,
+
+    "bep_flow": 65,
+    "bep_head": 82,
+
+    "efficiency": 80,
+
+    "motor_kw": 18.5
+  },
+
+  {
+    "pump_model": "Hydrovac 100-500",
+    "series": "Hydrovac",
+
+    "flow_min": 45,
+    "flow_max": 180,
+
+    "head_min": 45,
+    "head_max": 155,
+
+    "bep_flow": 105,
+    "bep_head": 105,
+
+    "efficiency": 84,
+
+    "motor_kw": 37
+  },
+
+  {
+    "pump_model": "Hydrovac 125-630",
+    "series": "Hydrovac",
+
+    "flow_min": 70,
+    "flow_max": 280,
+
+    "head_min": 60,
+    "head_max": 200,
+
+    "bep_flow": 160,
+    "bep_head": 135,
+
+    "efficiency": 86,
+
+    "motor_kw": 55
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "pump_model": "HPH",
+    "series": "HPH",
+
+    "application": "Power Plant Boiler Feed",
+    "type": "High Pressure Boiler Feed Pump",
+
+    "catalogue_pages": "36",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "HPK",
+    "series": "HPK",
+
+    "application": "Thermal Power Service",
+    "type": "High Pressure Pump",
+
+    "catalogue_pages": "36",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "RPH-HW",
+    "series": "RPH",
+
+    "application": "Hot Water Circulation",
+    "type": "Power Plant Process Pump",
+
+    "catalogue_pages": "36",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Multitec",
+    "series": "Multitec",
+
+    "application": "Boiler Feed Water",
+    "type": "Multistage Ring Section Pump",
+
+    "catalogue_pages": "64",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Omega",
+    "series": "Omega",
+
+    "application": "Cooling Water Circulation",
+    "type": "Split Case Pump",
+
+    "catalogue_pages": "65",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "RDLO",
+    "series": "RDLO",
+
+    "application": "Condenser Water Service",
+    "type": "Axially Split Pump",
+
+    "catalogue_pages": "65",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "WKTR",
+    "series": "WKTR",
+
+    "application": "Thermal Oil Circulation",
+    "type": "Thermal Fluid Pump",
+
+    "catalogue_pages": "42",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Etanorm SYT",
+    "series": "Etanorm",
+
+    "application": "High Temperature Thermal Oil",
+    "type": "Hot Oil Pump",
+
+    "catalogue_pages": "37",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  }
+]

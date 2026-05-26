@@ -1,0 +1,145 @@
+[
+  {
+    "pump_model": "AmaDrainer 301",
+    "series": "AmaDrainer",
+
+    "flow_min": 2,
+    "flow_max": 12,
+
+    "head_min": 2,
+    "head_max": 12,
+
+    "bep_flow": 7,
+    "bep_head": 7,
+
+    "efficiency": 42,
+
+    "motor_kw": 0.55
+  },
+
+  {
+    "pump_model": "AmaDrainer 303",
+    "series": "AmaDrainer",
+
+    "flow_min": 3,
+    "flow_max": 18,
+
+    "head_min": 3,
+    "head_max": 15,
+
+    "bep_flow": 10,
+    "bep_head": 9,
+
+    "efficiency": 46,
+
+    "motor_kw": 0.75
+  },
+
+  {
+    "pump_model": "AmaDrainer 305",
+    "series": "AmaDrainer",
+
+    "flow_min": 5,
+    "flow_max": 25,
+
+    "head_min": 4,
+    "head_max": 18,
+
+    "bep_flow": 15,
+    "bep_head": 11,
+
+    "efficiency": 50,
+
+    "motor_kw": 1.1
+  },
+
+  {
+    "pump_model": "AmaDrainer 307",
+    "series": "AmaDrainer",
+
+    "flow_min": 6,
+    "flow_max": 35,
+
+    "head_min": 5,
+    "head_max": 20,
+
+    "bep_flow": 22,
+    "bep_head": 13,
+
+    "efficiency": 54,
+
+    "motor_kw": 1.5
+  },
+
+  {
+    "pump_model": "Ama Porter 501",
+    "series": "Ama Porter",
+
+    "flow_min": 8,
+    "flow_max": 45,
+
+    "head_min": 5,
+    "head_max": 22,
+
+    "bep_flow": 28,
+    "bep_head": 15,
+
+    "efficiency": 58,
+
+    "motor_kw": 2.2
+  },
+
+  {
+    "pump_model": "Ama Porter 503",
+    "series": "Ama Porter",
+
+    "flow_min": 10,
+    "flow_max": 60,
+
+    "head_min": 6,
+    "head_max": 25,
+
+    "bep_flow": 38,
+    "bep_head": 17,
+
+    "efficiency": 62,
+
+    "motor_kw": 3
+  },
+
+  {
+    "pump_model": "Ama Porter 507",
+    "series": "Ama Porter",
+
+    "flow_min": 15,
+    "flow_max": 80,
+
+    "head_min": 8,
+    "head_max": 28,
+
+    "bep_flow": 50,
+    "bep_head": 19,
+
+    "efficiency": 66,
+
+    "motor_kw": 5.5
+  },
+
+  {
+    "pump_model": "Ama Porter 511",
+    "series": "Ama Porter",
+
+    "flow_min": 20,
+    "flow_max": 120,
+
+    "head_min": 8,
+    "head_max": 32,
+
+    "bep_flow": 75,
+    "bep_head": 22,
+
+    "efficiency": 70,
+
+    "motor_kw": 7.5
+  }
+]

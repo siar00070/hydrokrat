@@ -1,0 +1,73 @@
+[
+  {
+    "series": "Etanorm G",
+    "curve_type": "End Suction",
+    "curve_shape": "Steep",
+    "best_efficiency_zone": "70-110% of BEP",
+    "preferred_operation": "Continuous"
+  },
+
+  {
+    "series": "Etaline",
+    "curve_type": "Inline",
+    "curve_shape": "Stable",
+    "best_efficiency_zone": "75-110% of BEP",
+    "preferred_operation": "HVAC Continuous"
+  },
+
+  {
+    "series": "Movitec B",
+    "curve_type": "Vertical Multistage",
+    "curve_shape": "High Head",
+    "best_efficiency_zone": "80-115% of BEP",
+    "preferred_operation": "Pressure Boosting"
+  },
+
+  {
+    "series": "WK-WKS",
+    "curve_type": "Ring Section",
+    "curve_shape": "Very Steep",
+    "best_efficiency_zone": "80-105% of BEP",
+    "preferred_operation": "High Pressure"
+  },
+
+  {
+    "series": "Omega",
+    "curve_type": "Split Case",
+    "curve_shape": "Flat Stable",
+    "best_efficiency_zone": "70-120% of BEP",
+    "preferred_operation": "Large Water Transport"
+  },
+
+  {
+    "series": "UPA",
+    "curve_type": "Submersible Borewell",
+    "curve_shape": "High Head Narrow",
+    "best_efficiency_zone": "85-110% of BEP",
+    "preferred_operation": "Deep Well"
+  },
+
+  {
+    "series": "RPH",
+    "curve_type": "API Process",
+    "curve_shape": "Stable Process",
+    "best_efficiency_zone": "80-110% of BEP",
+    "preferred_operation": "Chemical Process"
+  },
+
+  {
+    "series": "Amarex",
+    "curve_type": "Wastewater",
+    "curve_shape": "Non-clog",
+    "best_efficiency_zone": "70-105% of BEP",
+    "preferred_operation": "Sewage Handling"
+  },
+
+  {
+    "series": "Multitec",
+    "curve_type": "Multistage",
+    "curve_shape": "High Head Linear",
+    "best_efficiency_zone": "80-110% of BEP",
+    "preferred_operation": "RO & Boiler Feed"
+  }
+]

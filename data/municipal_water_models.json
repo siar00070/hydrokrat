@@ -1,0 +1,97 @@
+[
+  {
+    "pump_model": "Omega",
+    "series": "Omega",
+
+    "application": "Municipal Water Supply",
+    "type": "Split Case Pump",
+
+    "catalogue_pages": "65",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "RDLO",
+    "series": "RDLO",
+
+    "application": "Raw Water Intake",
+    "type": "Axially Split Case Pump",
+
+    "catalogue_pages": "65",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "RDLP",
+    "series": "RDLP",
+
+    "application": "Municipal Water Transport",
+    "type": "Split Case Pump",
+
+    "catalogue_pages": "66",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Vitacast",
+    "series": "Vitacast",
+
+    "application": "Municipal Water Distribution",
+    "type": "Vertical Turbine Pump",
+
+    "catalogue_pages": "66",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Vitacast Bloc",
+    "series": "Vitacast",
+
+    "application": "Water Treatment Plants",
+    "type": "Vertical Pump",
+
+    "catalogue_pages": "66",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "KWP",
+    "series": "KWP",
+
+    "application": "Flood Water Drainage",
+    "type": "Axial Flow Pump",
+
+    "catalogue_pages": "55",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Sewatec",
+    "series": "Sewatec",
+
+    "application": "Municipal Sewage Transport",
+    "type": "Wastewater Pump",
+
+    "catalogue_pages": "54",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Amarex KRT",
+    "series": "Amarex",
+
+    "application": "Municipal Wastewater",
+    "type": "Submersible Sewage Pump",
+
+    "catalogue_pages": "53",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  }
+]

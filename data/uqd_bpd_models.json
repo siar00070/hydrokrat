@@ -1,0 +1,145 @@
+[
+  {
+    "pump_model": "UQD 112",
+    "series": "UQD",
+
+    "flow_min": 50,
+    "flow_max": 150,
+
+    "head_min": 72,
+    "head_max": 335,
+
+    "bep_flow": 90,
+    "bep_head": 180,
+
+    "efficiency": 72,
+
+    "motor_kw": 9.3
+  },
+
+  {
+    "pump_model": "UQD 152",
+    "series": "UQD",
+
+    "flow_min": 80,
+    "flow_max": 230,
+
+    "head_min": 25,
+    "head_max": 326,
+
+    "bep_flow": 140,
+    "bep_head": 165,
+
+    "efficiency": 76,
+
+    "motor_kw": 13
+  },
+
+  {
+    "pump_model": "UQD 182",
+    "series": "UQD",
+
+    "flow_min": 100,
+    "flow_max": 300,
+
+    "head_min": 21,
+    "head_max": 358,
+
+    "bep_flow": 180,
+    "bep_head": 185,
+
+    "efficiency": 80,
+
+    "motor_kw": 18.5
+  },
+
+  {
+    "pump_model": "UQD 212",
+    "series": "UQD",
+
+    "flow_min": 165,
+    "flow_max": 400,
+
+    "head_min": 23,
+    "head_max": 271,
+
+    "bep_flow": 240,
+    "bep_head": 145,
+
+    "efficiency": 82,
+
+    "motor_kw": 22
+  },
+
+  {
+    "pump_model": "BPD 242",
+    "series": "BPD",
+
+    "flow_min": 200,
+    "flow_max": 600,
+
+    "head_min": 13.5,
+    "head_max": 212,
+
+    "bep_flow": 360,
+    "bep_head": 118,
+
+    "efficiency": 84,
+
+    "motor_kw": 22
+  },
+
+  {
+    "pump_model": "BPD 262",
+    "series": "BPD",
+
+    "flow_min": 250,
+    "flow_max": 750,
+
+    "head_min": 14,
+    "head_max": 170,
+
+    "bep_flow": 450,
+    "bep_head": 92,
+
+    "efficiency": 86,
+
+    "motor_kw": 22
+  },
+
+  {
+    "pump_model": "BPD 273",
+    "series": "BPD",
+
+    "flow_min": 330,
+    "flow_max": 830,
+
+    "head_min": 10,
+    "head_max": 124,
+
+    "bep_flow": 520,
+    "bep_head": 72,
+
+    "efficiency": 88,
+
+    "motor_kw": 18.5
+  },
+
+  {
+    "pump_model": "BPDN 302",
+    "series": "BPDN",
+
+    "flow_min": 500,
+    "flow_max": 1250,
+
+    "head_min": 9,
+    "head_max": 117,
+
+    "bep_flow": 820,
+    "bep_head": 68,
+
+    "efficiency": 90,
+
+    "motor_kw": 18.5
+  }
+]

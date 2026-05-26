@@ -1,0 +1,180 @@
+[
+  {
+    "application": "Fire Fighting",
+
+    "preferred_pumps": [
+      "Etanorm G",
+      "Mega",
+      "MegaCPK",
+      "Etaline",
+      "WK-WKS",
+      "Movitec B"
+    ],
+
+    "flow_range": [10, 1200],
+    "head_range": [20, 180]
+  },
+
+  {
+    "application": "HVAC",
+
+    "preferred_pumps": [
+      "Etaline",
+      "ILN",
+      "ILNC",
+      "ILNR",
+      "Megaline",
+      "Calio"
+    ],
+
+    "flow_range": [2, 1000],
+    "head_range": [5, 120]
+  },
+
+  {
+    "application": "Pressure Boosting",
+
+    "preferred_pumps": [
+      "Movitec B",
+      "MoviBOOST",
+      "Delta",
+      "HyaSolo",
+      "HyaDuo"
+    ],
+
+    "flow_range": [1, 500],
+    "head_range": [20, 250]
+  },
+
+  {
+    "application": "Domestic Water Supply",
+
+    "preferred_pumps": [
+      "CORA",
+      "Perijet",
+      "Cute Plus",
+      "Peristar",
+      "MultiEco"
+    ],
+
+    "flow_range": [0.5, 50],
+    "head_range": [5, 180]
+  },
+
+  {
+    "application": "Agriculture",
+
+    "preferred_pumps": [
+      "Agribloc",
+      "Agribloc ZE",
+      "UPA",
+      "UQD",
+      "BPD"
+    ],
+
+    "flow_range": [5, 1500],
+    "head_range": [10, 350]
+  },
+
+  {
+    "application": "Borewell",
+
+    "preferred_pumps": [
+      "UPA",
+      "UQD",
+      "BPD",
+      "BPDN"
+    ],
+
+    "flow_range": [10, 1500],
+    "head_range": [20, 350]
+  },
+
+  {
+    "application": "Drainage & Dewatering",
+
+    "preferred_pumps": [
+      "AmaDrainer",
+      "AmaPorter",
+      "AmaFlow",
+      "Amarex",
+      "KWP"
+    ],
+
+    "flow_range": [5, 5000],
+    "head_range": [2, 120]
+  },
+
+  {
+    "application": "Industrial Process",
+
+    "preferred_pumps": [
+      "MegaCPK",
+      "CPKN",
+      "RPH",
+      "Magnochem",
+      "Etaseco"
+    ],
+
+    "flow_range": [2, 3000],
+    "head_range": [10, 350]
+  },
+
+  {
+    "application": "RO & Desalination",
+
+    "preferred_pumps": [
+      "Multitec-RO",
+      "RPH-RO",
+      "RVT",
+      "RVR",
+      "RTS"
+    ],
+
+    "flow_range": [2, 1500],
+    "head_range": [40, 800]
+  },
+
+  {
+    "application": "Mining & Slurry",
+
+    "preferred_pumps": [
+      "LCC-H",
+      "LCC-M",
+      "MDX",
+      "MHD",
+      "LCV"
+    ],
+
+    "flow_range": [10, 5000],
+    "head_range": [5, 120]
+  },
+
+  {
+    "application": "Municipal Water",
+
+    "preferred_pumps": [
+      "Omega",
+      "RDLO",
+      "RDLP",
+      "Vitacast"
+    ],
+
+    "flow_range": [50, 10000],
+    "head_range": [5, 200]
+  },
+
+  {
+    "application": "Oil & Gas",
+
+    "preferred_pumps": [
+      "RPH",
+      "RPH-V",
+      "MegaCPK",
+      "Magnochem"
+    ],
+
+    "flow_range": [5, 3000],
+    "head_range": [20, 350]
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "pump_model": "Magnochem",
+    "series": "Magnochem",
+
+    "application": "Chemical Processing",
+    "type": "Seal-less Magnetic Drive Pump",
+
+    "catalogue_pages": "39",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Magnochem 685",
+    "series": "Magnochem",
+
+    "application": "Hazardous Chemical Transfer",
+    "type": "Magnetic Drive Pump",
+
+    "catalogue_pages": "39",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Magnochem-Bloc",
+    "series": "Magnochem",
+
+    "application": "Chemical Service",
+    "type": "Close Coupled Magnetic Pump",
+
+    "catalogue_pages": "39",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Etaseco",
+    "series": "Etaseco",
+
+    "application": "Seal-less Process Pumping",
+    "type": "Canned Motor Pump",
+
+    "catalogue_pages": "39",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Etaseco RVP",
+    "series": "Etaseco",
+
+    "application": "Vacuum Process Systems",
+    "type": "Seal-less Process Pump",
+
+    "catalogue_pages": "40",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "pump_model": "Biobloc 40-160",
+    "series": "Biobloc",
+
+    "flow_min": 6,
+    "flow_max": 28,
+
+    "head_min": 6,
+    "head_max": 24,
+
+    "bep_flow": 16,
+    "bep_head": 15,
+
+    "efficiency": 58,
+
+    "motor_kw": 1.5
+  },
+
+  {
+    "pump_model": "Biobloc 50-200",
+    "series": "Biobloc",
+
+    "flow_min": 10,
+    "flow_max": 45,
+
+    "head_min": 8,
+    "head_max": 32,
+
+    "bep_flow": 25,
+    "bep_head": 20,
+
+    "efficiency": 64,
+
+    "motor_kw": 3
+  },
+
+  {
+    "pump_model": "Biobloc 65-250",
+    "series": "Biobloc",
+
+    "flow_min": 18,
+    "flow_max": 70,
+
+    "head_min": 10,
+    "head_max": 42,
+
+    "bep_flow": 42,
+    "bep_head": 26,
+
+    "efficiency": 70,
+
+    "motor_kw": 5.5
+  },
+
+  {
+    "pump_model": "Biobloc 80-315",
+    "series": "Biobloc",
+
+    "flow_min": 30,
+    "flow_max": 120,
+
+    "head_min": 12,
+    "head_max": 52,
+
+    "bep_flow": 70,
+    "bep_head": 32,
+
+    "efficiency": 76,
+
+    "motor_kw": 11
+  },
+
+  {
+    "pump_model": "Biobloc 100-400",
+    "series": "Biobloc",
+
+    "flow_min": 50,
+    "flow_max": 180,
+
+    "head_min": 15,
+    "head_max": 65,
+
+    "bep_flow": 105,
+    "bep_head": 40,
+
+    "efficiency": 80,
+
+    "motor_kw": 18.5
+  },
+
+  {
+    "pump_model": "Biobloc 125-500",
+    "series": "Biobloc",
+
+    "flow_min": 80,
+    "flow_max": 280,
+
+    "head_min": 18,
+    "head_max": 82,
+
+    "bep_flow": 160,
+    "bep_head": 52,
+
+    "efficiency": 84,
+
+    "motor_kw": 37
+  },
+
+  {
+    "pump_model": "Biobloc 150-630",
+    "series": "Biobloc",
+
+    "flow_min": 120,
+    "flow_max": 420,
+
+    "head_min": 22,
+    "head_max": 98,
+
+    "bep_flow": 240,
+    "bep_head": 64,
+
+    "efficiency": 86,
+
+    "motor_kw": 55
+  }
+]

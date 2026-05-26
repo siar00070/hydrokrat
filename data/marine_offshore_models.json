@@ -1,0 +1,97 @@
+[
+  {
+    "pump_model": "Omega",
+    "series": "Omega",
+
+    "application": "Marine Cooling Water",
+    "type": "Split Case Pump",
+
+    "catalogue_pages": "65",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "RDLO",
+    "series": "RDLO",
+
+    "application": "Sea Water Intake",
+    "type": "Axially Split Pump",
+
+    "catalogue_pages": "65",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "RPH",
+    "series": "RPH",
+
+    "application": "Offshore Process Service",
+    "type": "API Process Pump",
+
+    "catalogue_pages": "40",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "RPH-V",
+    "series": "RPH",
+
+    "application": "Vertical Offshore Pumping",
+    "type": "Vertical API Pump",
+
+    "catalogue_pages": "41",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Multitec",
+    "series": "Multitec",
+
+    "application": "High Pressure Sea Water Service",
+    "type": "Multistage Pump",
+
+    "catalogue_pages": "64",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Magnochem",
+    "series": "Magnochem",
+
+    "application": "Hazardous Fluid Transfer",
+    "type": "Magnetic Drive Pump",
+
+    "catalogue_pages": "39",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Etaseco",
+    "series": "Etaseco",
+
+    "application": "Leak-free Chemical Transfer",
+    "type": "Canned Motor Pump",
+
+    "catalogue_pages": "39",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "WKTR",
+    "series": "WKTR",
+
+    "application": "Thermal Fluid Systems",
+    "type": "Thermal Oil Pump",
+
+    "catalogue_pages": "42",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  }
+]

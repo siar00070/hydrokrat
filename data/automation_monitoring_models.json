@@ -1,0 +1,97 @@
+[
+  {
+    "pump_model": "PumpDrive 2",
+    "series": "PumpDrive",
+
+    "application": "Pump Automation",
+    "type": "Variable Frequency Drive",
+
+    "catalogue_pages": "26",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "PumpDrive 2 Eco",
+    "series": "PumpDrive",
+
+    "application": "Energy Efficient Pump Control",
+    "type": "VFD Controller",
+
+    "catalogue_pages": "26",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "PumpDrive 3",
+    "series": "PumpDrive",
+
+    "application": "Smart Pump Control",
+    "type": "Intelligent Drive System",
+
+    "catalogue_pages": "27",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "MyFlowDrive 2",
+    "series": "MyFlowDrive",
+
+    "application": "Process Automation",
+    "type": "Pump Monitoring System",
+
+    "catalogue_pages": "27",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "PumpMeter",
+    "series": "PumpMeter",
+
+    "application": "Pump Monitoring",
+    "type": "Pressure Monitoring Device",
+
+    "catalogue_pages": "27",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "KSB Guard",
+    "series": "KSB Guard",
+
+    "application": "Condition Monitoring",
+    "type": "Smart Monitoring System",
+
+    "catalogue_pages": "28",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "KSB Leakage Sensor",
+    "series": "KSB",
+
+    "application": "Leak Detection",
+    "type": "Monitoring Sensor",
+
+    "catalogue_pages": "28",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "KSB Safety Boost",
+    "series": "KSB",
+
+    "application": "Pressure Boosting Safety",
+    "type": "Smart Booster Protection",
+
+    "catalogue_pages": "47",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  }
+]

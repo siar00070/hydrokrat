@@ -1,0 +1,49 @@
+[
+  {
+    "pump_model": "Peristar V",
+    "series": "Peristar",
+
+    "application": "Domestic Water Supply",
+    "type": "Self Priming Monobloc Pump",
+
+    "catalogue_pages": "20",
+
+    "source_pdf": "ksb domestic and agri pumps(3).pdf"
+  },
+
+  {
+    "pump_model": "Peristar SZX",
+    "series": "Peristar",
+
+    "application": "Domestic Water Supply",
+    "type": "Self Priming Monobloc Pump",
+
+    "catalogue_pages": "21",
+
+    "source_pdf": "ksb domestic and agri pumps(3).pdf"
+  },
+
+  {
+    "pump_model": "Peristar GS",
+    "series": "Peristar",
+
+    "application": "Domestic Water Supply",
+    "type": "Self Priming Monobloc Pump",
+
+    "catalogue_pages": "21",
+
+    "source_pdf": "ksb domestic and agri pumps(3).pdf"
+  },
+
+  {
+    "pump_model": "Peristar ZDX",
+    "series": "Peristar",
+
+    "application": "Domestic Water Supply",
+    "type": "Self Priming Monobloc Pump",
+
+    "catalogue_pages": "22",
+
+    "source_pdf": "ksb domestic and agri pumps(3).pdf"
+  }
+]

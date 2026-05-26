@@ -1,0 +1,25 @@
+[
+  {
+    "pump_model": "Amarex IN",
+    "series": "Amarex",
+
+    "application": "Wastewater & Sewage",
+    "type": "Submersible Sewage Pump",
+
+    "catalogue_pages": "31-33",
+
+    "source_pdf": "ksb domestic and agri pumps(3).pdf"
+  },
+
+  {
+    "pump_model": "KRTU",
+    "series": "KRTU",
+
+    "application": "Wastewater & Drainage",
+    "type": "Submersible Motor Pump",
+
+    "catalogue_pages": "34-35",
+
+    "source_pdf": "ksb domestic and agri pumps(3).pdf"
+  }
+]

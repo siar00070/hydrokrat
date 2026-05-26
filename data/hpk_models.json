@@ -1,0 +1,127 @@
+[
+  {
+    "pump_model": "HPK-L 32-160",
+    "series": "HPK-L",
+
+    "flow_min": 5,
+    "flow_max": 20,
+
+    "head_min": 25,
+    "head_max": 65,
+
+    "bep_flow": 12,
+    "bep_head": 42,
+
+    "efficiency": 68,
+
+    "motor_kw": 4
+  },
+
+  {
+    "pump_model": "HPK-L 40-200",
+    "series": "HPK-L",
+
+    "flow_min": 8,
+    "flow_max": 35,
+
+    "head_min": 35,
+    "head_max": 85,
+
+    "bep_flow": 22,
+    "bep_head": 58,
+
+    "efficiency": 72,
+
+    "motor_kw": 7.5
+  },
+
+  {
+    "pump_model": "HPK-L 50-250",
+    "series": "HPK-L",
+
+    "flow_min": 12,
+    "flow_max": 55,
+
+    "head_min": 45,
+    "head_max": 110,
+
+    "bep_flow": 32,
+    "bep_head": 76,
+
+    "efficiency": 76,
+
+    "motor_kw": 15
+  },
+
+  {
+    "pump_model": "HPK-L 65-315",
+    "series": "HPK-L",
+
+    "flow_min": 20,
+    "flow_max": 90,
+
+    "head_min": 60,
+    "head_max": 145,
+
+    "bep_flow": 52,
+    "bep_head": 98,
+
+    "efficiency": 80,
+
+    "motor_kw": 30
+  },
+
+  {
+    "pump_model": "HPK-L 80-315",
+    "series": "HPK-L",
+
+    "flow_min": 30,
+    "flow_max": 140,
+
+    "head_min": 75,
+    "head_max": 185,
+
+    "bep_flow": 82,
+    "bep_head": 125,
+
+    "efficiency": 84,
+
+    "motor_kw": 45
+  },
+
+  {
+    "pump_model": "HPK-L 100-400",
+    "series": "HPK-L",
+
+    "flow_min": 50,
+    "flow_max": 220,
+
+    "head_min": 90,
+    "head_max": 240,
+
+    "bep_flow": 130,
+    "bep_head": 165,
+
+    "efficiency": 86,
+
+    "motor_kw": 75
+  },
+
+  {
+    "pump_model": "HPK-L 125-400",
+    "series": "HPK-L",
+
+    "flow_min": 80,
+    "flow_max": 320,
+
+    "head_min": 110,
+    "head_max": 280,
+
+    "bep_flow": 180,
+    "bep_head": 190,
+
+    "efficiency": 88,
+
+    "motor_kw": 110
+  }
+]

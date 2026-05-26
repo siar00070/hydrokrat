@@ -1,0 +1,73 @@
+[
+  {
+    "pump_model": "Hydrobloc MC",
+    "series": "Hydrobloc",
+
+    "application": "Domestic Water Supply",
+    "type": "Monobloc Pump",
+
+    "catalogue_pages": "65",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "MultiEco",
+    "series": "MultiEco",
+
+    "application": "Domestic Pressure Boosting",
+    "type": "Horizontal Multistage Pump",
+
+    "catalogue_pages": "44",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "MultiEco Pro",
+    "series": "MultiEco",
+
+    "application": "Residential Water Supply",
+    "type": "Multistage Pressure Pump",
+
+    "catalogue_pages": "44",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Ixo N",
+    "series": "Ixo",
+
+    "application": "Domestic Water Transfer",
+    "type": "Self Priming Pump",
+
+    "catalogue_pages": "44",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Ixo Pro",
+    "series": "Ixo",
+
+    "application": "Pressure Boosting",
+    "type": "Domestic Pump",
+
+    "catalogue_pages": "44",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Filtra N",
+    "series": "Filtra",
+
+    "application": "Swimming Pool Filtration",
+    "type": "Pool Pump",
+
+    "catalogue_pages": "45",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  }
+]

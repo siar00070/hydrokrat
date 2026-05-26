@@ -1,0 +1,132 @@
+[
+  {
+    "category": "Fire Fighting",
+    "recommended_series": [
+      "Etanorm G",
+      "Mega",
+      "MegaCPK",
+      "Movitec B",
+      "Etaline",
+      "WK-WKS"
+    ]
+  },
+
+  {
+    "category": "HVAC",
+    "recommended_series": [
+      "Etaline",
+      "ILN",
+      "ILNC",
+      "ILNR",
+      "Megaline",
+      "Movitec B",
+      "Calio"
+    ]
+  },
+
+  {
+    "category": "Pressure Boosting",
+    "recommended_series": [
+      "Movitec B",
+      "MoviBOOST",
+      "HyaSolo",
+      "HyaDuo",
+      "Delta"
+    ]
+  },
+
+  {
+    "category": "Domestic Water Supply",
+    "recommended_series": [
+      "CORA",
+      "Perijet",
+      "Cute Plus",
+      "Peristar",
+      "MultiEco"
+    ]
+  },
+
+  {
+    "category": "Agriculture",
+    "recommended_series": [
+      "Agribloc",
+      "Agribloc ZE",
+      "UPA",
+      "UQD",
+      "BPD"
+    ]
+  },
+
+  {
+    "category": "Borewell",
+    "recommended_series": [
+      "UPA",
+      "UQD",
+      "BPD",
+      "BPDN"
+    ]
+  },
+
+  {
+    "category": "Wastewater",
+    "recommended_series": [
+      "AmaDrainer",
+      "AmaPorter",
+      "AmaFlow",
+      "Amarex",
+      "Sewatec"
+    ]
+  },
+
+  {
+    "category": "Industrial Process",
+    "recommended_series": [
+      "MegaCPK",
+      "CPKN",
+      "RPH",
+      "Magnochem",
+      "Etaseco"
+    ]
+  },
+
+  {
+    "category": "RO & Desalination",
+    "recommended_series": [
+      "Multitec-RO",
+      "RPH-RO",
+      "RVT",
+      "RVR"
+    ]
+  },
+
+  {
+    "category": "Mining & Slurry",
+    "recommended_series": [
+      "LCC-H",
+      "LCC-M",
+      "MDX",
+      "MHD",
+      "LCV"
+    ]
+  },
+
+  {
+    "category": "Municipal Water",
+    "recommended_series": [
+      "Omega",
+      "RDLO",
+      "RDLP",
+      "Vitacast"
+    ]
+  },
+
+  {
+    "category": "Oil & Gas",
+    "recommended_series": [
+      "RPH",
+      "RPH-V",
+      "MegaCPK",
+      "Magnochem"
+    ]
+  }
+]

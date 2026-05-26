@@ -1,0 +1,163 @@
+[
+  {
+    "series": "Etanorm G",
+
+    "best_for": [
+      "Fire Fighting",
+      "Hydrant System",
+      "Sprinkler System"
+    ],
+
+    "strengths": [
+      "Reliable fire duty",
+      "High head performance",
+      "Easy maintenance",
+      "NFPA applications"
+    ]
+  },
+
+  {
+    "series": "Etaline",
+
+    "best_for": [
+      "HVAC",
+      "Building Services",
+      "Cooling Water"
+    ],
+
+    "strengths": [
+      "Compact inline design",
+      "Low footprint",
+      "Easy piping layout",
+      "Energy efficient"
+    ]
+  },
+
+  {
+    "series": "Movitec B",
+
+    "best_for": [
+      "Pressure Boosting",
+      "High Rise Buildings",
+      "RO Feed"
+    ],
+
+    "strengths": [
+      "High pressure capability",
+      "Vertical compact design",
+      "Low noise",
+      "High efficiency"
+    ]
+  },
+
+  {
+    "series": "WK-WKS",
+
+    "best_for": [
+      "High Pressure Applications",
+      "Boiler Feed",
+      "Fire Fighting"
+    ],
+
+    "strengths": [
+      "Multistage high head",
+      "Stable operation",
+      "Industrial reliability"
+    ]
+  },
+
+  {
+    "series": "Omega",
+
+    "best_for": [
+      "Municipal Water",
+      "Irrigation",
+      "Cooling Water"
+    ],
+
+    "strengths": [
+      "Very high flow",
+      "Double suction efficiency",
+      "Easy maintenance"
+    ]
+  },
+
+  {
+    "series": "UPA",
+
+    "best_for": [
+      "Borewell",
+      "Groundwater",
+      "Agriculture"
+    ],
+
+    "strengths": [
+      "Deep well operation",
+      "Submersible reliability",
+      "High efficiency"
+    ]
+  },
+
+  {
+    "series": "RPH",
+
+    "best_for": [
+      "Oil & Gas",
+      "Chemical Process",
+      "API Applications"
+    ],
+
+    "strengths": [
+      "API compliance",
+      "Heavy duty construction",
+      "Process reliability"
+    ]
+  },
+
+  {
+    "series": "Magnochem",
+
+    "best_for": [
+      "Hazardous Chemicals",
+      "Leak-free Transfer"
+    ],
+
+    "strengths": [
+      "Seal-less design",
+      "No leakage",
+      "Chemical safety"
+    ]
+  },
+
+  {
+    "series": "Amarex",
+
+    "best_for": [
+      "Sewage",
+      "Wastewater",
+      "Drainage"
+    ],
+
+    "strengths": [
+      "Handles solids",
+      "Submersible operation",
+      "Rugged construction"
+    ]
+  },
+
+  {
+    "series": "Multitec",
+
+    "best_for": [
+      "RO",
+      "High Pressure Water",
+      "Boiler Feed"
+    ],
+
+    "strengths": [
+      "Very high head",
+      "Multistage efficiency",
+      "Industrial duty"
+    ]
+  }
+]

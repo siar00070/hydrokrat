@@ -1,0 +1,79 @@
+{
+  "chatbot_name": "Hydrokrat AI",
+
+  "version": "1.0",
+
+  "oem": "KSB",
+
+  "mode": "Engineering Pump Selection",
+
+  "core_features": [
+    "Pump Selection",
+    "Duty Point Matching",
+    "Hydraulic Recommendation",
+    "Fire Fighting Selection",
+    "HVAC Pump Recommendation",
+    "Borewell Pump Selection",
+    "RO Pump Selection",
+    "Wastewater Pump Recommendation",
+    "Industrial API Pump Selection"
+  ],
+
+  "database_files": [
+    "etanorm_g_models.json",
+    "etaline_models.json",
+    "movitec_b_models.json",
+    "wk_wks_models.json",
+    "cora_models.json",
+    "uqd_bpd_models.json",
+    "agribloc_models.json",
+    "perijet_models.json",
+    "peristar_models.json",
+    "upa_models.json",
+    "firefighting_models.json",
+    "building_services_models.json",
+    "industrial_process_models.json",
+    "municipal_water_models.json",
+    "oil_gas_models.json",
+    "mining_slurry_models.json",
+    "ro_desalination_models.json"
+  ],
+
+  "logic_files": [
+    "pump_selection_rules.json",
+    "application_priority_logic.json",
+    "ai_recommendation_rules.json",
+    "pump_curve_mapping.json",
+    "system_prompt_rules.json"
+  ],
+
+  "response_templates": [
+    "chatbot_response_templates.json"
+  ],
+
+  "training_examples": [
+    "engineering_prompt_examples.json"
+  ],
+
+  "master_index": "master_family_index.json",
+
+  "selection_engine": {
+    "priority": [
+      "Application Match",
+      "Flow Match",
+      "Head Match",
+      "BEP Proximity",
+      "Efficiency",
+      "Reliability"
+    ]
+  },
+
+  "response_rules": {
+    "show_series": true,
+    "show_model": true,
+    "show_duty_point": true,
+    "show_efficiency": true,
+    "show_motor_kw": true,
+    "show_reason": true
+  }
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "pump_model": "MegaCPK",
+    "series": "MegaCPK",
+
+    "application": "Chemical Processing",
+    "type": "Standard Chemical Pump",
+
+    "catalogue_pages": "38",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "CPKN",
+    "series": "CPKN",
+
+    "application": "Chemical Industry",
+    "type": "Process Pump",
+
+    "catalogue_pages": "38",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "CPKNO",
+    "series": "CPKNO",
+
+    "application": "Chemical Transfer",
+    "type": "OH2 Process Pump",
+
+    "catalogue_pages": "38",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Magnochem",
+    "series": "Magnochem",
+
+    "application": "Hazardous Chemical Handling",
+    "type": "Magnetic Drive Pump",
+
+    "catalogue_pages": "39",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Magnochem-Bloc",
+    "series": "Magnochem",
+
+    "application": "Seal-less Chemical Transfer",
+    "type": "Magnetic Coupled Pump",
+
+    "catalogue_pages": "39",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Etaseco",
+    "series": "Etaseco",
+
+    "application": "Chemical Service",
+    "type": "Canned Motor Pump",
+
+    "catalogue_pages": "39",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "RPH",
+    "series": "RPH",
+
+    "application": "API Chemical Process",
+    "type": "API 610 Pump",
+
+    "catalogue_pages": "40",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "RPH-V",
+    "series": "RPH",
+
+    "application": "Vertical Chemical Process",
+    "type": "Vertical API Pump",
+
+    "catalogue_pages": "41",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  }
+]

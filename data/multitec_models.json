@@ -1,0 +1,127 @@
+[
+  {
+    "pump_model": "Multitec A 32/5",
+    "series": "Multitec",
+
+    "flow_min": 5,
+    "flow_max": 20,
+
+    "head_min": 40,
+    "head_max": 180,
+
+    "bep_flow": 12,
+    "bep_head": 110,
+
+    "efficiency": 72,
+
+    "motor_kw": 5.5
+  },
+
+  {
+    "pump_model": "Multitec A 40/6",
+    "series": "Multitec",
+
+    "flow_min": 8,
+    "flow_max": 35,
+
+    "head_min": 50,
+    "head_max": 220,
+
+    "bep_flow": 22,
+    "bep_head": 135,
+
+    "efficiency": 76,
+
+    "motor_kw": 11
+  },
+
+  {
+    "pump_model": "Multitec A 50/7",
+    "series": "Multitec",
+
+    "flow_min": 12,
+    "flow_max": 55,
+
+    "head_min": 60,
+    "head_max": 260,
+
+    "bep_flow": 32,
+    "bep_head": 160,
+
+    "efficiency": 80,
+
+    "motor_kw": 18.5
+  },
+
+  {
+    "pump_model": "Multitec A 65/8",
+    "series": "Multitec",
+
+    "flow_min": 20,
+    "flow_max": 90,
+
+    "head_min": 70,
+    "head_max": 320,
+
+    "bep_flow": 52,
+    "bep_head": 190,
+
+    "efficiency": 82,
+
+    "motor_kw": 30
+  },
+
+  {
+    "pump_model": "Multitec A 80/9",
+    "series": "Multitec",
+
+    "flow_min": 30,
+    "flow_max": 140,
+
+    "head_min": 80,
+    "head_max": 380,
+
+    "bep_flow": 85,
+    "bep_head": 220,
+
+    "efficiency": 84,
+
+    "motor_kw": 45
+  },
+
+  {
+    "pump_model": "Multitec A 100/10",
+    "series": "Multitec",
+
+    "flow_min": 50,
+    "flow_max": 220,
+
+    "head_min": 90,
+    "head_max": 450,
+
+    "bep_flow": 130,
+    "bep_head": 260,
+
+    "efficiency": 86,
+
+    "motor_kw": 75
+  },
+
+  {
+    "pump_model": "Multitec A 125/11",
+    "series": "Multitec",
+
+    "flow_min": 80,
+    "flow_max": 320,
+
+    "head_min": 100,
+    "head_max": 520,
+
+    "bep_flow": 180,
+    "bep_head": 300,
+
+    "efficiency": 88,
+
+    "motor_kw": 110
+  }
+]

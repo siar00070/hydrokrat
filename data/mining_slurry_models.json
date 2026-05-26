@@ -1,0 +1,97 @@
+[
+  {
+    "pump_model": "LCC-H",
+    "series": "LCC",
+
+    "application": "Mining Slurry",
+    "type": "Heavy Duty Slurry Pump",
+
+    "catalogue_pages": "56",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "LCC-M",
+    "series": "LCC",
+
+    "application": "Mineral Processing",
+    "type": "Medium Duty Slurry Pump",
+
+    "catalogue_pages": "56",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "LCC-R",
+    "series": "LCC",
+
+    "application": "Abrasive Slurry Transport",
+    "type": "Rubber Lined Slurry Pump",
+
+    "catalogue_pages": "57",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "MDX",
+    "series": "MDX",
+
+    "application": "Mill Circuit Duty",
+    "type": "Slurry Pump",
+
+    "catalogue_pages": "58",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "MHD",
+    "series": "MHD",
+
+    "application": "High Density Slurry",
+    "type": "Slurry Pump",
+
+    "catalogue_pages": "57",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "LCV",
+    "series": "LCV",
+
+    "application": "Vertical Slurry Handling",
+    "type": "Vertical Sump Pump",
+
+    "catalogue_pages": "57",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "WBC",
+    "series": "WBC",
+
+    "application": "Coal & Ash Slurry",
+    "type": "Slurry Pump",
+
+    "catalogue_pages": "56",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "KWP",
+    "series": "KWP",
+
+    "application": "Mine Dewatering",
+    "type": "Axial Flow Pump",
+
+    "catalogue_pages": "55",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  }
+]

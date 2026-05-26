@@ -1,0 +1,109 @@
+[
+  {
+    "pump_model": "HGM 32-5",
+    "series": "HGM",
+
+    "flow_min": 3,
+    "flow_max": 15,
+
+    "head_min": 40,
+    "head_max": 180,
+
+    "bep_flow": 8,
+    "bep_head": 110,
+
+    "efficiency": 70,
+
+    "motor_kw": 4
+  },
+
+  {
+    "pump_model": "HGM 40-6",
+    "series": "HGM",
+
+    "flow_min": 5,
+    "flow_max": 25,
+
+    "head_min": 55,
+    "head_max": 240,
+
+    "bep_flow": 14,
+    "bep_head": 145,
+
+    "efficiency": 74,
+
+    "motor_kw": 7.5
+  },
+
+  {
+    "pump_model": "HGM 50-7",
+    "series": "HGM",
+
+    "flow_min": 8,
+    "flow_max": 40,
+
+    "head_min": 70,
+    "head_max": 320,
+
+    "bep_flow": 22,
+    "bep_head": 190,
+
+    "efficiency": 78,
+
+    "motor_kw": 15
+  },
+
+  {
+    "pump_model": "HGM 65-8",
+    "series": "HGM",
+
+    "flow_min": 12,
+    "flow_max": 60,
+
+    "head_min": 90,
+    "head_max": 420,
+
+    "bep_flow": 35,
+    "bep_head": 250,
+
+    "efficiency": 82,
+
+    "motor_kw": 30
+  },
+
+  {
+    "pump_model": "HGM 80-9",
+    "series": "HGM",
+
+    "flow_min": 20,
+    "flow_max": 90,
+
+    "head_min": 110,
+    "head_max": 520,
+
+    "bep_flow": 52,
+    "bep_head": 310,
+
+    "efficiency": 84,
+
+    "motor_kw": 45
+  },
+
+  {
+    "pump_model": "HGM 100-10",
+    "series": "HGM",
+
+    "flow_min": 30,
+    "flow_max": 140,
+
+    "head_min": 140,
+    "head_max": 650,
+
+    "bep_flow": 82,
+    "bep_head": 390,
+
+    "efficiency": 86,
+
+    "motor_kw": 75
+  }
+]

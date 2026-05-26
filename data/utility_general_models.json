@@ -1,0 +1,97 @@
+[
+  {
+    "pump_model": "Etanorm",
+    "series": "Etanorm",
+
+    "application": "General Utility Water",
+    "type": "End Suction Pump",
+
+    "catalogue_pages": "34",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Etabloc",
+    "series": "Etabloc",
+
+    "application": "Utility Water Transfer",
+    "type": "Close Coupled Pump",
+
+    "catalogue_pages": "34",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Etaline",
+    "series": "Etaline",
+
+    "application": "Building Utility Services",
+    "type": "Vertical Inline Pump",
+
+    "catalogue_pages": "32",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Movitec",
+    "series": "Movitec",
+
+    "application": "Pressure Boosting",
+    "type": "Vertical Multistage Pump",
+
+    "catalogue_pages": "64",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Movitec B",
+    "series": "Movitec B",
+
+    "application": "Commercial Water Supply",
+    "type": "Multistage Pressure Pump",
+
+    "catalogue_pages": "64",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Omega",
+    "series": "Omega",
+
+    "application": "Large Water Transfer",
+    "type": "Split Case Pump",
+
+    "catalogue_pages": "65",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Multitec",
+    "series": "Multitec",
+
+    "application": "High Pressure Utility Service",
+    "type": "Multistage Pump",
+
+    "catalogue_pages": "64",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "UPA",
+    "series": "UPA",
+
+    "application": "Ground Water Extraction",
+    "type": "Submersible Borewell Pump",
+
+    "catalogue_pages": "61-62",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  }
+]

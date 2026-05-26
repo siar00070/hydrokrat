@@ -1,0 +1,97 @@
+[
+  {
+    "pump_model": "AmaDrainer",
+    "series": "AmaDrainer",
+
+    "application": "Drainage",
+    "type": "Submersible Drainage Pump",
+
+    "catalogue_pages": "48",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "AmaPorter",
+    "series": "AmaPorter",
+
+    "application": "Dewatering",
+    "type": "Submersible Utility Pump",
+
+    "catalogue_pages": "48",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "AmaFlow",
+    "series": "AmaFlow",
+
+    "application": "Sewage & Wastewater",
+    "type": "Submersible Sewage Pump",
+
+    "catalogue_pages": "52",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Amarex",
+    "series": "Amarex",
+
+    "application": "Wastewater Transport",
+    "type": "Submersible Motor Pump",
+
+    "catalogue_pages": "52",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Amarex KRT",
+    "series": "Amarex",
+
+    "application": "Heavy Duty Sewage",
+    "type": "Submersible Sewage Pump",
+
+    "catalogue_pages": "53",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Sewabloc",
+    "series": "Sewabloc",
+
+    "application": "Drainage & Flood Control",
+    "type": "Volute Casing Pump",
+
+    "catalogue_pages": "55",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Sewatec",
+    "series": "Sewatec",
+
+    "application": "Flood Water Handling",
+    "type": "Axially Split Sewage Pump",
+
+    "catalogue_pages": "54",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "KWP",
+    "series": "KWP",
+
+    "application": "Flood Control",
+    "type": "Axial Flow Pump",
+
+    "catalogue_pages": "55",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "pump_model": "Vitacast",
+    "series": "Vitacast",
+
+    "application": "Food & Beverage",
+    "type": "Hygienic Process Pump",
+
+    "catalogue_pages": "66",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Vitalobe",
+    "series": "Vitalobe",
+
+    "application": "Pharmaceutical Processing",
+    "type": "Lobe Pump",
+
+    "catalogue_pages": "67",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Vitaprime",
+    "series": "Vitaprime",
+
+    "application": "Food Transfer",
+    "type": "Self Priming Hygienic Pump",
+
+    "catalogue_pages": "67",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Vitastage",
+    "series": "Vitastage",
+
+    "application": "Pharma & Beverage",
+    "type": "Multistage Hygienic Pump",
+
+    "catalogue_pages": "67",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Comeo",
+    "series": "Comeo",
+
+    "application": "Food Industry",
+    "type": "Hygienic Pump",
+
+    "catalogue_pages": "63",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Movitec H(S)I",
+    "series": "Movitec",
+
+    "application": "Clean Process Water",
+    "type": "Stainless Steel Multistage Pump",
+
+    "catalogue_pages": "63",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Etachrom L",
+    "series": "Etachrom",
+
+    "application": "Clean Liquid Transfer",
+    "type": "Stainless Steel Pump",
+
+    "catalogue_pages": "35",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Multitec",
+    "series": "Multitec",
+
+    "application": "Process Water Systems",
+    "type": "High Pressure Multistage Pump",
+
+    "catalogue_pages": "64",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  }
+]

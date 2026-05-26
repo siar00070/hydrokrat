@@ -1,0 +1,109 @@
+[
+  {
+    "pump_model": "MINI 25-40",
+    "series": "MINI",
+
+    "flow_min": 0.5,
+    "flow_max": 3,
+
+    "head_min": 2,
+    "head_max": 8,
+
+    "bep_flow": 1.5,
+    "bep_head": 5,
+
+    "efficiency": 38,
+
+    "motor_kw": 0.09
+  },
+
+  {
+    "pump_model": "MINI 25-60",
+    "series": "MINI",
+
+    "flow_min": 0.8,
+    "flow_max": 4,
+
+    "head_min": 3,
+    "head_max": 12,
+
+    "bep_flow": 2,
+    "bep_head": 7,
+
+    "efficiency": 42,
+
+    "motor_kw": 0.12
+  },
+
+  {
+    "pump_model": "MINI 32-60",
+    "series": "MINI",
+
+    "flow_min": 1,
+    "flow_max": 5,
+
+    "head_min": 4,
+    "head_max": 14,
+
+    "bep_flow": 2.8,
+    "bep_head": 9,
+
+    "efficiency": 46,
+
+    "motor_kw": 0.18
+  },
+
+  {
+    "pump_model": "MINI 32-80",
+    "series": "MINI",
+
+    "flow_min": 1.5,
+    "flow_max": 7,
+
+    "head_min": 5,
+    "head_max": 18,
+
+    "bep_flow": 4,
+    "bep_head": 12,
+
+    "efficiency": 50,
+
+    "motor_kw": 0.25
+  },
+
+  {
+    "pump_model": "MINI 40-100",
+    "series": "MINI",
+
+    "flow_min": 2,
+    "flow_max": 10,
+
+    "head_min": 6,
+    "head_max": 24,
+
+    "bep_flow": 5.5,
+    "bep_head": 16,
+
+    "efficiency": 54,
+
+    "motor_kw": 0.37
+  },
+
+  {
+    "pump_model": "MINI 50-120",
+    "series": "MINI",
+
+    "flow_min": 3,
+    "flow_max": 14,
+
+    "head_min": 8,
+    "head_max": 32,
+
+    "bep_flow": 8,
+    "bep_head": 22,
+
+    "efficiency": 58,
+
+    "motor_kw": 0.55
+  }
+]

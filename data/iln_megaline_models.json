@@ -1,0 +1,85 @@
+[
+  {
+    "pump_model": "ILN",
+    "series": "ILN",
+
+    "application": "HVAC Circulation",
+    "type": "In-line Pump",
+
+    "catalogue_pages": "32",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "ILNC",
+    "series": "ILNC",
+
+    "application": "Cooling & Heating Systems",
+    "type": "In-line Circulation Pump",
+
+    "catalogue_pages": "33",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "ILNR",
+    "series": "ILNR",
+
+    "application": "HVAC Recirculation",
+    "type": "In-line Pump",
+
+    "catalogue_pages": "33",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Megaline",
+    "series": "Megaline",
+
+    "application": "Building Services",
+    "type": "Vertical In-line Pump",
+
+    "catalogue_pages": "33",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Etaline",
+    "series": "Etaline",
+
+    "application": "HVAC & Water Supply",
+    "type": "In-line Pump",
+
+    "catalogue_pages": "32",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Etaline-R",
+    "series": "Etaline",
+
+    "application": "Heating Systems",
+    "type": "In-line Pump",
+
+    "catalogue_pages": "32",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Etaline Z",
+    "series": "Etaline",
+
+    "application": "Water Circulation",
+    "type": "In-line Pump",
+
+    "catalogue_pages": "32",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  }
+]

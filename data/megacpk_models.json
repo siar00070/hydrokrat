@@ -1,0 +1,145 @@
+[
+  {
+    "pump_model": "WK 40/4",
+    "series": "WK-WKS",
+
+    "flow_min": 8,
+    "flow_max": 32,
+
+    "head_min": 18,
+    "head_max": 72,
+
+    "bep_flow": 18,
+    "bep_head": 48,
+
+    "efficiency": 72,
+
+    "motor_kw": 4
+  },
+
+  {
+    "pump_model": "WK 50/5",
+    "series": "WK-WKS",
+
+    "flow_min": 12,
+    "flow_max": 52,
+
+    "head_min": 22,
+    "head_max": 92,
+
+    "bep_flow": 30,
+    "bep_head": 62,
+
+    "efficiency": 78,
+
+    "motor_kw": 7.5
+  },
+
+  {
+    "pump_model": "WK 65/6",
+    "series": "WK-WKS",
+
+    "flow_min": 20,
+    "flow_max": 85,
+
+    "head_min": 28,
+    "head_max": 118,
+
+    "bep_flow": 48,
+    "bep_head": 78,
+
+    "efficiency": 82,
+
+    "motor_kw": 15
+  },
+
+  {
+    "pump_model": "WK 80/6",
+    "series": "WK-WKS",
+
+    "flow_min": 35,
+    "flow_max": 140,
+
+    "head_min": 32,
+    "head_max": 128,
+
+    "bep_flow": 82,
+    "bep_head": 88,
+
+    "efficiency": 84,
+
+    "motor_kw": 22
+  },
+
+  {
+    "pump_model": "WK 100/7",
+    "series": "WK-WKS",
+
+    "flow_min": 55,
+    "flow_max": 220,
+
+    "head_min": 42,
+    "head_max": 155,
+
+    "bep_flow": 125,
+    "bep_head": 105,
+
+    "efficiency": 86,
+
+    "motor_kw": 37
+  },
+
+  {
+    "pump_model": "WKS 125/8",
+    "series": "WK-WKS",
+
+    "flow_min": 90,
+    "flow_max": 360,
+
+    "head_min": 52,
+    "head_max": 182,
+
+    "bep_flow": 210,
+    "bep_head": 122,
+
+    "efficiency": 88,
+
+    "motor_kw": 55
+  },
+
+  {
+    "pump_model": "WKS 150/10",
+    "series": "WK-WKS",
+
+    "flow_min": 160,
+    "flow_max": 620,
+
+    "head_min": 62,
+    "head_max": 225,
+
+    "bep_flow": 340,
+    "bep_head": 148,
+
+    "efficiency": 90,
+
+    "motor_kw": 110
+  },
+
+  {
+    "pump_model": "WKS 200/12",
+    "series": "WK-WKS",
+
+    "flow_min": 260,
+    "flow_max": 920,
+
+    "head_min": 75,
+    "head_max": 265,
+
+    "bep_flow": 520,
+    "bep_head": 178,
+
+    "efficiency": 91,
+
+    "motor_kw": 160
+  }
+]

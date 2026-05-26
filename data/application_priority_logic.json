@@ -1,0 +1,146 @@
+[
+  {
+    "application": "Fire Fighting",
+
+    "priority_order": [
+      "Etanorm G",
+      "Mega",
+      "Etaline",
+      "WK-WKS",
+      "Movitec B"
+    ],
+
+    "selection_logic": [
+      "Prefer high reliability",
+      "Prefer NFPA compatible pumps",
+      "Prefer high head stable curve",
+      "Use multistage for high pressure"
+    ]
+  },
+
+  {
+    "application": "HVAC",
+
+    "priority_order": [
+      "Etaline",
+      "ILN",
+      "Megaline",
+      "Calio"
+    ],
+
+    "selection_logic": [
+      "Prefer inline compact pumps",
+      "Prefer energy efficient operation",
+      "Prefer low vibration",
+      "Continuous duty required"
+    ]
+  },
+
+  {
+    "application": "Pressure Boosting",
+
+    "priority_order": [
+      "Movitec B",
+      "MoviBOOST",
+      "Delta",
+      "HyaSolo"
+    ],
+
+    "selection_logic": [
+      "Prefer vertical multistage",
+      "High pressure required",
+      "Compact installation preferred",
+      "Variable speed preferred"
+    ]
+  },
+
+  {
+    "application": "Domestic Water Supply",
+
+    "priority_order": [
+      "CORA",
+      "Perijet",
+      "Peristar",
+      "MultiEco"
+    ],
+
+    "selection_logic": [
+      "Low noise preferred",
+      "Compact domestic installation",
+      "Energy efficient operation",
+      "Simple maintenance"
+    ]
+  },
+
+  {
+    "application": "Industrial Process",
+
+    "priority_order": [
+      "RPH",
+      "MegaCPK",
+      "Magnochem",
+      "Etaseco"
+    ],
+
+    "selection_logic": [
+      "Chemical compatibility required",
+      "API preference",
+      "Leak-free operation preferred",
+      "Heavy duty continuous process"
+    ]
+  },
+
+  {
+    "application": "Wastewater",
+
+    "priority_order": [
+      "Amarex",
+      "AmaFlow",
+      "Sewatec",
+      "KWP"
+    ],
+
+    "selection_logic": [
+      "Non-clog impeller preferred",
+      "Submersible operation",
+      "Solid handling capability",
+      "Flood duty capable"
+    ]
+  },
+
+  {
+    "application": "RO & Desalination",
+
+    "priority_order": [
+      "Multitec-RO",
+      "RPH-RO",
+      "RVT",
+      "RVR"
+    ],
+
+    "selection_logic": [
+      "Very high pressure required",
+      "Corrosion resistance required",
+      "Stable multistage curve",
+      "Continuous operation"
+    ]
+  },
+
+  {
+    "application": "Oil & Gas",
+
+    "priority_order": [
+      "RPH",
+      "RPH-V",
+      "MegaCPK",
+      "Magnochem"
+    ],
+
+    "selection_logic": [
+      "API compliance mandatory",
+      "Hazardous fluid handling",
+      "Leak-free operation preferred",
+      "Heavy duty process service"
+    ]
+  }
+]

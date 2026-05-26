@@ -1,10 +1,21 @@
-<<<<<<< HEAD
 venv/
-*.pdf
 __pycache__/
 .env
 chroma_db/
-=======
-# Local Netlify folder
-.netlify
->>>>>>> a714bf1f2ded6bfcde6eb5bc660108bff4a93a2e
+.netlify/
+
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.tmp
+.DS_Store
+
+.idea/
+.vscode/
+
+build/
+dist/
+*.egg-info/

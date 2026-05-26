@@ -1,0 +1,95 @@
+[
+  {
+    "template": "pump_selection_response",
+
+    "format": [
+      "Application",
+      "Required Duty Point",
+      "Recommended Pump Series",
+      "Recommended Model",
+      "Operating Range",
+      "Efficiency",
+      "Motor Power",
+      "Reason for Recommendation"
+    ]
+  },
+
+  {
+    "template": "firefighting_response",
+
+    "format": [
+      "Fire Application",
+      "Flow",
+      "Head",
+      "Recommended Fire Pump",
+      "Pump Type",
+      "Duty Point",
+      "NFPA Suitability",
+      "Backup Recommendation"
+    ]
+  },
+
+  {
+    "template": "hvac_response",
+
+    "format": [
+      "HVAC Application",
+      "Cooling/Heating Duty",
+      "Recommended Inline Pump",
+      "Efficiency",
+      "Compact Installation Benefits",
+      "Energy Saving Notes"
+    ]
+  },
+
+  {
+    "template": "borewell_response",
+
+    "format": [
+      "Borewell Depth",
+      "Required Flow",
+      "Recommended Submersible Pump",
+      "Stages",
+      "Motor Rating",
+      "Operating Head"
+    ]
+  },
+
+  {
+    "template": "wastewater_response",
+
+    "format": [
+      "Wastewater Type",
+      "Solid Handling",
+      "Recommended Sewage Pump",
+      "Impeller Type",
+      "Submersible/Dry Installation",
+      "Duty Point"
+    ]
+  },
+
+  {
+    "template": "industrial_response",
+
+    "format": [
+      "Process Fluid",
+      "Temperature",
+      "Pressure",
+      "Recommended API/Chemical Pump",
+      "Seal Type",
+      "Material Compatibility"
+    ]
+  },
+
+  {
+    "template": "ro_response",
+
+    "format": [
+      "RO Capacity",
+      "Required Pressure",
+      "Recommended RO Pump",
+      "Multistage Configuration",
+      "Energy Recovery Compatibility"
+    ]
+  }
+]

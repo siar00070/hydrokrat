@@ -1,0 +1,73 @@
+[
+  {
+    "pump_model": "Movitec",
+    "series": "Movitec",
+
+    "application": "Pressure Boosting",
+    "type": "Vertical Multistage Pump",
+
+    "catalogue_pages": "64",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Movitec H(S)I",
+    "series": "Movitec",
+
+    "application": "Industrial High Pressure",
+    "type": "Vertical Multistage Pump",
+
+    "catalogue_pages": "63",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Movitec VCI",
+    "series": "Movitec",
+
+    "application": "Cooling & Water Supply",
+    "type": "Vertical Multistage Pump",
+
+    "catalogue_pages": "64",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Multitec",
+    "series": "Multitec",
+
+    "application": "Boiler Feed & Water Transport",
+    "type": "Multistage Ring Section Pump",
+
+    "catalogue_pages": "64",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "MultiTec Plus",
+    "series": "Multitec",
+
+    "application": "High Pressure Water Transport",
+    "type": "Multistage Pump",
+
+    "catalogue_pages": "64",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Multitec-RO",
+    "series": "Multitec",
+
+    "application": "Reverse Osmosis",
+    "type": "High Pressure RO Pump",
+
+    "catalogue_pages": "74",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  }
+]

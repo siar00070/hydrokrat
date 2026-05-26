@@ -1,0 +1,85 @@
+[
+  {
+    "pump_model": "Etanorm G",
+    "series": "Etanorm G",
+
+    "application": "Fire Fighting",
+    "type": "End Suction Fire Pump",
+
+    "catalogue_pages": "4",
+
+    "source_pdf": "03. KSB Fire Fighting Pumps Catalogue(5).pdf"
+  },
+
+  {
+    "pump_model": "CPK",
+    "series": "CPK",
+
+    "application": "Fire Fighting",
+    "type": "Process Fire Pump",
+
+    "catalogue_pages": "4",
+
+    "source_pdf": "03. KSB Fire Fighting Pumps Catalogue(5).pdf"
+  },
+
+  {
+    "pump_model": "MegaCPK",
+    "series": "MegaCPK",
+
+    "application": "Fire Fighting",
+    "type": "Chemical Process Fire Pump",
+
+    "catalogue_pages": "4",
+
+    "source_pdf": "03. KSB Fire Fighting Pumps Catalogue(5).pdf"
+  },
+
+  {
+    "pump_model": "Mega",
+    "series": "Mega",
+
+    "application": "Fire Fighting",
+    "type": "Split Case Fire Pump",
+
+    "catalogue_pages": "4",
+
+    "source_pdf": "03. KSB Fire Fighting Pumps Catalogue(5).pdf"
+  },
+
+  {
+    "pump_model": "Movitec B",
+    "series": "Movitec B",
+
+    "application": "Fire Fighting",
+    "type": "Multistage Fire Pump",
+
+    "catalogue_pages": "4",
+
+    "source_pdf": "03. KSB Fire Fighting Pumps Catalogue(5).pdf"
+  },
+
+  {
+    "pump_model": "Etaline",
+    "series": "Etaline",
+
+    "application": "Fire Fighting",
+    "type": "Vertical Inline Fire Pump",
+
+    "catalogue_pages": "4",
+
+    "source_pdf": "03. KSB Fire Fighting Pumps Catalogue(5).pdf"
+  },
+
+  {
+    "pump_model": "WK-WKS",
+    "series": "WK-WKS",
+
+    "application": "Fire Fighting",
+    "type": "Multistage Ring Section Pump",
+
+    "catalogue_pages": "4",
+
+    "source_pdf": "03. KSB Fire Fighting Pumps Catalogue(5).pdf"
+  }
+]

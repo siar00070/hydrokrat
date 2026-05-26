@@ -1,0 +1,97 @@
+[
+  {
+    "pump_model": "HPH",
+    "series": "HPH",
+
+    "application": "Boiler Feed",
+    "type": "High Pressure Pump",
+
+    "catalogue_pages": "36",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "HPK",
+    "series": "HPK",
+
+    "application": "Hot Water Service",
+    "type": "High Pressure Pump",
+
+    "catalogue_pages": "36",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "HPK-L",
+    "series": "HPK",
+
+    "application": "Thermal Oil & Hot Water",
+    "type": "Process Pump",
+
+    "catalogue_pages": "36",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "RPH-HW",
+    "series": "RPH",
+
+    "application": "Hot Water Circulation",
+    "type": "API Process Pump",
+
+    "catalogue_pages": "36",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Etanorm SYT",
+    "series": "Etanorm",
+
+    "application": "Thermal Oil Systems",
+    "type": "Hot Oil Pump",
+
+    "catalogue_pages": "37",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Etanorm RSY",
+    "series": "Etanorm",
+
+    "application": "Thermal Fluid Handling",
+    "type": "Hot Oil Pump",
+
+    "catalogue_pages": "37",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Etabloc SYT",
+    "series": "Etabloc",
+
+    "application": "Thermal Oil Circulation",
+    "type": "Close Coupled Hot Oil Pump",
+
+    "catalogue_pages": "37",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Etaline SYT",
+    "series": "Etaline",
+
+    "application": "High Temperature Service",
+    "type": "Inline Hot Oil Pump",
+
+    "catalogue_pages": "37",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  }
+]

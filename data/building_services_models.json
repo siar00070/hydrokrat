@@ -1,0 +1,97 @@
+[
+  {
+    "pump_model": "Etaline",
+    "series": "Etaline",
+
+    "application": "Building Services",
+    "type": "Vertical Inline Pump",
+
+    "catalogue_pages": "32",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "ILN",
+    "series": "ILN",
+
+    "application": "HVAC Circulation",
+    "type": "Inline Pump",
+
+    "catalogue_pages": "32",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "ILNC",
+    "series": "ILNC",
+
+    "application": "Cooling Systems",
+    "type": "Inline Circulation Pump",
+
+    "catalogue_pages": "33",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "ILNR",
+    "series": "ILNR",
+
+    "application": "Heating Systems",
+    "type": "Inline Pump",
+
+    "catalogue_pages": "33",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Megaline",
+    "series": "Megaline",
+
+    "application": "Commercial HVAC",
+    "type": "Vertical Inline Pump",
+
+    "catalogue_pages": "33",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "Movitec B",
+    "series": "Movitec B",
+
+    "application": "Pressure Boosting",
+    "type": "Vertical Multistage Pump",
+
+    "catalogue_pages": "64",
+
+    "source_pdf": "ksb pumps catalogue(3).pdf"
+  },
+
+  {
+    "pump_model": "MoviBOOST KT",
+    "series": "MoviBOOST",
+
+    "application": "Pressure Booster System",
+    "type": "Booster Set",
+
+    "catalogue_pages": "2",
+
+    "source_pdf": "02. KSB Pressure Boosting MoviBoost KT VT VPT(5).pdf"
+  },
+
+  {
+    "pump_model": "MoviBOOST VT",
+    "series": "MoviBOOST",
+
+    "application": "Variable Speed Booster",
+    "type": "Pressure Booster System",
+
+    "catalogue_pages": "2",
+
+    "source_pdf": "02. KSB Pressure Boosting MoviBoost KT VT VPT(5).pdf"
+  }
+]
