@@ -2,7 +2,7 @@ import re
 import matplotlib.pyplot as plt
 import numpy as np
 import streamlit as st
-from utils.pump_selector import recommend_pumps
+from app.pump_selector_engine import build_response
 
 # =========================
 # PUMP CURVE FUNCTION
@@ -198,7 +198,13 @@ if submitted:
         st.error("Please enter valid numeric values.")
         st.stop()
 
-    pumps = recommend_pumps(application, flow_value, head_value)
+    result = build_response(
+    application,
+    flow_value,
+    head_value
+    )
+
+    pumps = result.get("recommendations", [])
 
     if pumps:
         st.success("Recommended Pump Solutions")
@@ -206,28 +212,20 @@ if submitted:
             st.markdown(
                 f"""
             <div style="background:white; padding:20px; border-radius:16px; margin-bottom:15px; box-shadow:0 4px 12px rgba(0,0,0,0.06); border-left:5px solid #2563eb;">
-                <h3 style="color:#2563eb; margin-top:0;">⚙️ {pump["model"]}</h3>
-                <p><b>Type:</b> {pump["type"]}</p>
-                <p><b>Max Flow:</b> {pump["flow_max"]} m³/hr</p>
-                <p><b>Max Head:</b> {pump["head_max"]} m</p>
-                <p><b>Applications:</b> {", ".join(pump["application"][:3])}</p>
+                <h3 style="color:#2563eb; margin-top:0;">⚙️ {pump["pump_model"]}</h3>
+                <p><b>Series:</b> {pump["series"]}</p>
+                <p><b>Flow Range:</b> {pump["flow_range"]}</p>
+                <p><b>Head Range:</b> {pump["head_range"]}</p>
             </div>
             """,
                 unsafe_allow_html=True,
             )
 
             st.markdown("### ✅ Features")
-            for feature in pump["features"]:
+            for feature in pump["strengths"]:
                 st.markdown(f"- {feature}")
 
-            curve_fig = generate_pump_curve(
-                pump["model"],
-                pump["flow_max"],
-                pump["head_max"],
-                flow_value,
-                head_value,
-            )
-            st.pyplot(curve_fig)
+           
     else:
         st.warning("No suitable pump found for this duty point.")
 
@@ -286,43 +284,55 @@ if prompt:
         head_val = float(numbers[1]) if len(numbers) >= 2 else None
 
         # Process matching
+                # Process matching
         if application and flow_val and head_val:
-            pumps = recommend_pumps(application, flow_val, head_val)
+
+            result = build_response(
+                application,
+                flow_val,
+                head_val
+            )
+
+            pumps = result.get("recommendations", [])
 
             if pumps:
-                response = "## ⚙️ Recommended Pump Solutions\n"
-                pump = pumps[0]  # Show the best matched curve inside the chat
 
-                response += f"### {pump['model']}\n"
-                response += f"**Type:** {pump['type']}\n"
-                response += f"**Max Flow:** {pump['flow_max']} m³/hr\n"
-                response += f"**Max Head:** {pump['head_max']} m\n\n"
-                response += "**Features:**\n- " + "\n- ".join(pump["features"])
+                response = "## ⚙️ Recommended Pump Solutions\n"
+
+                pump = pumps[0]
+
+                response += f"### {pump['pump_model']}\n"
+                response += f"**Series:** {pump['series']}\n"
+                response += f"**Flow Range:** {pump['flow_range']}\n"
+                response += f"**Head Range:** {pump['head_range']}\n"
+                response += f"**Efficiency:** {pump['efficiency']}\n"
+                response += f"**Motor:** {pump['motor_kw']}\n\n"
+
+                response += "**Strengths:**\n- "
+                response += "\n- ".join(
+                    pump["strengths"]
+                )
 
                 st.markdown(response)
-
-                curve_params = (
-                    pump["model"],
-                    pump["flow_max"],
-                    pump["head_max"],
-                    flow_val,
-                    head_val,
-                )
-                curve_fig = generate_pump_curve(*curve_params)
-                st.pyplot(curve_fig)
 
                 st.session_state.messages.append(
                     {
                         "role": "assistant",
                         "content": response,
-                        "curve_data": curve_params,
                     }
                 )
+
             else:
+
                 response = "No suitable pump found for this duty point."
+
                 st.markdown(response)
+
                 st.session_state.messages.append(
-                    {"role": "assistant", "content": response}
+                    {
+                        "role": "assistant",
+                        "content": response,
+                    }
                 )
 
         else:
