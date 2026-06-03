@@ -1,0 +1,15 @@
+{
+    "ETN 100-080-200 GI4": "assets/curves/etanorm/page_48.png",
+    "ETN 100-80-250 GI4": "assets/curves/etanorm/page_49.png",
+    "ETN 100-80-250 GB5": "assets/curves/etanorm/page_49.png",
+    "ETN 100-80-315 GB5": "assets/curves/etanorm/page_50.png",
+
+    "ETN 125-100-250 GI4": "assets/curves/etanorm/page_53.png",
+    "ETN 125-100-250 GC2": "assets/curves/etanorm/page_53.png",
+
+    "ETN 125-100-315 GB5": "assets/curves/etanorm/page_54.png",
+
+    "MCPK 250-200-500 GB4": "assets/curves/mcpk/page_119.png",
+
+    "CPK 250-500 GB8": "assets/curves/cpkn/page_86.png"
+}

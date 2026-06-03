@@ -1,3 +1,3 @@
 from utils.pdf_loader import create_vectorstore
 
-create_vectorstore("data/pdfs")
+create_vectorstore("data/raw_pdf")

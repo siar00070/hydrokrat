@@ -1,0 +1,74 @@
+[
+    {
+        "pump_model": "90/6",
+        "series": "Movitec",
+        "flow_min": 80,
+        "flow_max": 100,
+        "head_min": 50,
+        "head_max": 150,
+        "bep_flow": 90,
+        "bep_head": 100,
+        "motor_kw": 5.5,
+        "efficiency": 80
+    },
+    {
+        "pump_model": "90/6-1",
+        "series": "Movitec",
+        "flow_min": 80,
+        "flow_max": 100,
+        "head_min": 50,
+        "head_max": 150,
+        "bep_flow": 90,
+        "bep_head": 100,
+        "motor_kw": 5.5,
+        "efficiency": 80
+    },
+    {
+        "pump_model": "90/6-2",
+        "series": "Movitec",
+        "flow_min": 80,
+        "flow_max": 100,
+        "head_min": 50,
+        "head_max": 150,
+        "bep_flow": 90,
+        "bep_head": 100,
+        "motor_kw": 5.5,
+        "efficiency": 80
+    },
+    {
+        "pump_model": "90/5",
+        "series": "Movitec",
+        "flow_min": 80,
+        "flow_max": 100,
+        "head_min": 50,
+        "head_max": 150,
+        "bep_flow": 90,
+        "bep_head": 100,
+        "motor_kw": 5.5,
+        "efficiency": 80
+    },
+    {
+        "pump_model": "90/5-1",
+        "series": "Movitec",
+        "flow_min": 80,
+        "flow_max": 100,
+        "head_min": 50,
+        "head_max": 150,
+        "bep_flow": 90,
+        "bep_head": 100,
+        "motor_kw": 5.5,
+        "efficiency": 80
+    },
+    {
+        "pump_model": "90/5-2",
+        "series": "Movitec",
+        "flow_min": 80,
+        "flow_max": 100,
+        "head_min": 50,
+        "head_max": 150,
+        "bep_flow": 90,
+        "bep_head": 100,
+        "motor_kw": 5.5,
+        "efficiency": 80
+    }
+]

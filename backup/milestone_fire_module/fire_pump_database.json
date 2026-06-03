@@ -1,0 +1,469 @@
+[
+  {
+    "fire_type": "Hydrant",
+    "flow": 96,
+    "head": 56,
+    "main_electric": "ETN 100-080-200 GI4",
+    "pump_family": "Etanorm",
+    "electric_motor": "30 kW",
+    "main_diesel": "ETN 100-80-315 GB5",
+    "diesel_engine": "42 BHP",
+    "jockey_pump": "Movitec VCF 10B08"
+  },
+
+  {
+    "fire_type": "Hydrant",
+    "flow": 97,
+    "head": 70,
+    "main_electric": "ETN 100-80-250 GI4",
+    "electric_motor": "37 kW",
+    "main_diesel": "ETN 100-80-400 GI4",
+    "diesel_engine": "60 BHP",
+    "jockey_pump": "Movitec VCF 10B09"
+  },
+
+  {
+    "fire_type": "Hydrant",
+    "flow": 137,
+    "head": 70,
+    "main_electric": "ETN 100-80-250 GI4",
+    "electric_motor": "45 kW",
+    "main_diesel": "ETN 100-80-400 GI4",
+    "diesel_engine": "85 BHP",
+    "jockey_pump": "Movitec VCF 10B13"
+  },
+
+  {
+    "fire_type": "Hydrant",
+    "flow": 137,
+    "head": 88,
+    "main_electric": "ETN 100-80-250 GB5",
+    "electric_motor": "55 kW",
+    "main_diesel": "ETN 150-125-400 GI4",
+    "diesel_engine": "94 BHP",
+    "jockey_pump": "Movitec VCF 10B15"
+  },
+
+  {
+    "fire_type": "Hydrant",
+    "flow": 137,
+    "head": 105,
+    "main_electric": "ETN 100-80-315 GB5",
+    "electric_motor": "75 kW",
+    "main_diesel": "MCPK 200-150-500 GB4",
+    "diesel_engine": "132 BHP",
+    "jockey_pump": "ETN 050-032-250.1 GI4"
+  },
+
+  {
+    "fire_type": "Hydrant",
+    "flow": 171,
+    "head": 70,
+    "main_electric": "ETN 125-100-250 GI4",
+    "electric_motor": "55 kW",
+    "main_diesel": "ETN 125-100-400 GI4",
+    "diesel_engine": "94 BHP",
+    "jockey_pump": "ETN 050-032-250.1 GI4"
+  },
+{
+  "fire_type": "Hydrant",
+  "flow": 171,
+  "head": 88,
+  "main_electric": "ETN 100-80-250 GB5",
+  "electric_motor": "75 kW",
+  "main_diesel": "ETN 150-125-400 GI4",
+  "diesel_engine": "102 BHP",
+  "jockey_pump": "ETN 050-032-250.1 GI4"
+},
+{
+  "fire_type": "Hydrant",
+  "flow": 171,
+  "head": 105,
+  "main_electric": "ETN 100-80-315 GB5",
+  "electric_motor": "90 kW",
+  "main_diesel": "WK 150/3 EXE 1",
+  "diesel_engine": "94 BHP",
+  "jockey_pump": "ETN 050-032-250 GI4"
+},
+{
+  "fire_type": "Hydrant",
+  "flow": 273,
+  "head": 70,
+  "main_electric": "MCPK 250-200-500 GB4",
+  "electric_motor": "90 kW",
+  "main_diesel": "ETN 150-125-400 GI4",
+  "diesel_engine": "132 BHP",
+  "jockey_pump": "ETB 050-032-200 GI4"
+},
+{
+  "fire_type": "Hydrant",
+  "flow": 273,
+  "head": 88,
+  "main_electric": "ETN 125-100-250 GC2",
+  "electric_motor": "110 kW",
+  "main_diesel": "ETN 150-125-400 GI4",
+  "diesel_engine": "167 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+  "fire_type": "Hydrant",
+  "flow": 273,
+  "head": 105,
+  "main_electric": "ETN 125-100-315 GB5",
+  "electric_motor": "110 kW",
+  "main_diesel": "MCPK 200-150-500 GB4",
+  "diesel_engine": "198 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+  "fire_type": "Hydrant",
+  "flow": 410,
+  "head": 70,
+  "main_electric": "MCPK 250-200-500 GB4",
+  "electric_motor": "125 kW",
+  "main_diesel": "ETN 200-150-400 GI",
+  "diesel_engine": "167 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+  "fire_type": "Hydrant",
+  "flow": 410,
+  "head": 88,
+  "main_electric": "MCPK 250-200-500 GB4",
+  "electric_motor": "160 kW",
+  "main_diesel": "ETN 200-150-400 GB5",
+  "diesel_engine": "198 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+  "fire_type": "Hydrant",
+  "flow": 616,
+  "head": 70,
+  "main_electric": "CPK 250-500 GB8",
+  "electric_motor": "200 kW",
+  "main_diesel": "MCPK 250-200-500 GB4",
+  "diesel_engine": "254 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+  "fire_type": "Hydrant",
+  "flow": 616,
+  "head": 88,
+  "main_electric": "CPK 250-500 GB8",
+  "electric_motor": "250 kW",
+  "main_diesel": "CPK 250-500 GB8",
+  "diesel_engine": "313 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+    "fire_type": "Sprinkler",
+    "flow": 96,
+    "head": 56,
+    "main_electric": "ETN 100-080-200 GI4",
+    "electric_motor": "30 kW",
+    "main_diesel": "ETN 100-80-315 GB5",
+    "diesel_engine": "42 BHP",
+    "jockey_pump": "Movitec VCF 10B08"
+  },
+
+  {
+    "fire_type": "Sprinkler",
+    "flow": 97,
+    "head": 70,
+    "main_electric": "ETN 100-80-250 GI4",
+    "electric_motor": "37 kW",
+    "main_diesel": "ETN 100-80-400 GI4",
+    "diesel_engine": "60 BHP",
+    "jockey_pump": "Movitec VCF 10B09"
+  },
+
+  {
+    "fire_type": "Sprinkler",
+    "flow": 137,
+    "head": 70,
+    "main_electric": "ETN 100-80-250 GI4",
+    "electric_motor": "45 kW",
+    "main_diesel": "ETN 100-80-400 GI4",
+    "diesel_engine": "85 BHP",
+    "jockey_pump": "Movitec VCF 10B13"
+  },
+
+  {
+    "fire_type": "Sprinkler",
+    "flow": 137,
+    "head": 88,
+    "main_electric": "ETN 100-80-250 GB5",
+    "electric_motor": "55 kW",
+    "main_diesel": "ETN 150-125-400 GI4",
+    "diesel_engine": "94 BHP",
+    "jockey_pump": "Movitec VCF 10B15"
+  },
+
+  {
+    "fire_type": "Sprinkler",
+    "flow": 137,
+    "head": 105,
+    "main_electric": "ETN 100-80-315 GB5",
+    "electric_motor": "75 kW",
+    "main_diesel": "MCPK 200-150-500 GB4",
+    "diesel_engine": "132 BHP",
+    "jockey_pump": "ETN 050-032-250.1 GI4"
+  },
+
+  {
+    "fire_type": "Sprinkler",
+    "flow": 171,
+    "head": 70,
+    "main_electric": "ETN 125-100-250 GI4",
+    "electric_motor": "55 kW",
+    "main_diesel": "ETN 125-100-400 GI4",
+    "diesel_engine": "94 BHP",
+    "jockey_pump": "ETN 050-032-250.1 GI4"
+  },
+{
+  "fire_type": "Sprinkler",
+  "flow": 171,
+  "head": 88,
+  "main_electric": "ETN 100-80-250 GB5",
+  "electric_motor": "75 kW",
+  "main_diesel": "ETN 150-125-400 GI4",
+  "diesel_engine": "102 BHP",
+  "jockey_pump": "ETN 050-032-250.1 GI4"
+},
+{
+  "fire_type": "Sprinkler",
+  "flow": 171,
+  "head": 105,
+  "main_electric": "ETN 100-80-315 GB5",
+  "electric_motor": "90 kW",
+  "main_diesel": "WK 150/3 EXE 1",
+  "diesel_engine": "94 BHP",
+  "jockey_pump": "ETN 050-032-250 GI4"
+},
+{
+  "fire_type": "Sprinkler",
+  "flow": 273,
+  "head": 70,
+  "main_electric": "MCPK 250-200-500 GB4",
+  "electric_motor": "90 kW",
+  "main_diesel": "ETN 150-125-400 GI4",
+  "diesel_engine": "132 BHP",
+  "jockey_pump": "ETB 050-032-200 GI4"
+},
+{
+  "fire_type": "Sprinkler",
+  "flow": 273,
+  "head": 88,
+  "main_electric": "ETN 125-100-250 GC2",
+  "electric_motor": "110 kW",
+  "main_diesel": "ETN 150-125-400 GI4",
+  "diesel_engine": "167 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+  "fire_type": "Sprinkler",
+  "flow": 273,
+  "head": 105,
+  "main_electric": "ETN 125-100-315 GB5",
+  "electric_motor": "110 kW",
+  "main_diesel": "MCPK 200-150-500 GB4",
+  "diesel_engine": "198 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+  "fire_type": "Sprinkler",
+  "flow": 410,
+  "head": 70,
+  "main_electric": "MCPK 250-200-500 GB4",
+  "electric_motor": "125 kW",
+  "main_diesel": "ETN 200-150-400 GI",
+  "diesel_engine": "167 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+  "fire_type": "Sprinkler",
+  "flow": 410,
+  "head": 88,
+  "main_electric": "MCPK 250-200-500 GB4",
+  "electric_motor": "160 kW",
+  "main_diesel": "ETN 200-150-400 GB5",
+  "diesel_engine": "198 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+  "fire_type": "Sprinkler",
+  "flow": 616,
+  "head": 70,
+  "main_electric": "CPK 250-500 GB8",
+  "electric_motor": "200 kW",
+  "main_diesel": "MCPK 250-200-500 GB4",
+  "diesel_engine": "254 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+  "fire_type": "Sprinkler",
+  "flow": 616,
+  "head": 88,
+  "main_electric": "CPK 250-500 GB8",
+  "electric_motor": "250 kW",
+  "main_diesel": "CPK 250-500 GB8",
+  "diesel_engine": "313 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+    "fire_type": "Hydrant + Sprinkler",
+    "flow": 96,
+    "head": 56,
+    "main_electric": "ETN 100-080-200 GI4",
+    "electric_motor": "30 kW",
+    "main_diesel": "ETN 100-80-315 GB5",
+    "diesel_engine": "42 BHP",
+    "jockey_pump": "Movitec VCF 10B08"
+  },
+
+  {
+    "fire_type": "Hydrant + Sprinkler",
+    "flow": 97,
+    "head": 70,
+    "main_electric": "ETN 100-80-250 GI4",
+    "electric_motor": "37 kW",
+    "main_diesel": "ETN 100-80-400 GI4",
+    "diesel_engine": "60 BHP",
+    "jockey_pump": "Movitec VCF 10B09"
+  },
+
+  {
+    "fire_type": "Hydrant + Sprinkler",
+    "flow": 137,
+    "head": 70,
+    "main_electric": "ETN 100-80-250 GI4",
+    "electric_motor": "45 kW",
+    "main_diesel": "ETN 100-80-400 GI4",
+    "diesel_engine": "85 BHP",
+    "jockey_pump": "Movitec VCF 10B13"
+  },
+
+  {
+    "fire_type": "Hydrant + Sprinkler",
+    "flow": 137,
+    "head": 88,
+    "main_electric": "ETN 100-80-250 GB5",
+    "electric_motor": "55 kW",
+    "main_diesel": "ETN 150-125-400 GI4",
+    "diesel_engine": "94 BHP",
+    "jockey_pump": "Movitec VCF 10B15"
+  },
+
+  {
+    "fire_type": "Hydrant + Sprinkler",
+    "flow": 137,
+    "head": 105,
+    "main_electric": "ETN 100-80-315 GB5",
+    "electric_motor": "75 kW",
+    "main_diesel": "MCPK 200-150-500 GB4",
+    "diesel_engine": "132 BHP",
+    "jockey_pump": "ETN 050-032-250.1 GI4"
+  },
+
+  {
+    "fire_type": "Hydrant + Sprinkler",
+    "flow": 171,
+    "head": 70,
+    "main_electric": "ETN 125-100-250 GI4",
+    "electric_motor": "55 kW",
+    "main_diesel": "ETN 125-100-400 GI4",
+    "diesel_engine": "94 BHP",
+    "jockey_pump": "ETN 050-032-250.1 GI4"
+  },
+{
+  "fire_type": "Hydrant + Sprinkler",
+  "flow": 171,
+  "head": 88,
+  "main_electric": "ETN 100-80-250 GB5",
+  "electric_motor": "75 kW",
+  "main_diesel": "ETN 150-125-400 GI4",
+  "diesel_engine": "102 BHP",
+  "jockey_pump": "ETN 050-032-250.1 GI4"
+},
+{
+  "fire_type": "Hydrant + Sprinkler",
+  "flow": 171,
+  "head": 105,
+  "main_electric": "ETN 100-80-315 GB5",
+  "electric_motor": "90 kW",
+  "main_diesel": "WK 150/3 EXE 1",
+  "diesel_engine": "94 BHP",
+  "jockey_pump": "ETN 050-032-250 GI4"
+},
+{
+  "fire_type": "Hydrant + Sprinkler",
+  "flow": 273,
+  "head": 70,
+  "main_electric": "MCPK 250-200-500 GB4",
+  "electric_motor": "90 kW",
+  "main_diesel": "ETN 150-125-400 GI4",
+  "diesel_engine": "132 BHP",
+  "jockey_pump": "ETB 050-032-200 GI4"
+},
+{
+  "fire_type": "Hydrant + Sprinkler",
+  "flow": 273,
+  "head": 88,
+  "main_electric": "ETN 125-100-250 GC2",
+  "electric_motor": "110 kW",
+  "main_diesel": "ETN 150-125-400 GI4",
+  "diesel_engine": "167 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+  "fire_type": "Hydrant + Sprinkler",
+  "flow": 273,
+  "head": 105,
+  "main_electric": "ETN 125-100-315 GB5",
+  "electric_motor": "110 kW",
+  "main_diesel": "MCPK 200-150-500 GB4",
+  "diesel_engine": "198 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+  "fire_type": "Hydrant + Sprinkler",
+  "flow": 410,
+  "head": 70,
+  "main_electric": "MCPK 250-200-500 GB4",
+  "electric_motor": "125 kW",
+  "main_diesel": "ETN 200-150-400 GI",
+  "diesel_engine": "167 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+  "fire_type": "Hydrant + Sprinkler",
+  "flow": 410,
+  "head": 88,
+  "main_electric": "MCPK 250-200-500 GB4",
+  "electric_motor": "160 kW",
+  "main_diesel": "ETN 200-150-400 GB5",
+  "diesel_engine": "198 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+  "fire_type": "Hydrant + Sprinkler",
+  "flow": 616,
+  "head": 70,
+  "main_electric": "CPK 250-500 GB8",
+  "electric_motor": "200 kW",
+  "main_diesel": "MCPK 250-200-500 GB4",
+  "diesel_engine": "254 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+},
+{
+  "fire_type": "Hydrant + Sprinkler",
+  "flow": 616,
+  "head": 88,
+  "main_electric": "CPK 250-500 GB8",
+  "electric_motor": "250 kW",
+  "main_diesel": "CPK 250-500 GB8",
+  "diesel_engine": "313 BHP",
+  "jockey_pump": "ETB 065-040-160 GI4"
+}
+
+]

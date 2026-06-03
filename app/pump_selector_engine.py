@@ -1,7 +1,28 @@
 import json
 import os
-from difflib import get_close_matches
 
+APPLICATION_RULES = {
+
+        "Pressure Boosting": ["Movitec"],
+
+        "HVAC": ["Etaline"],
+
+        "Fire Fighting": ["Etanorm", "Omega"],
+
+        "Domestic Water Supply": ["Delta", "Movitec"],
+
+        "Borewell": ["Submersible"],
+
+        "Drainage & Dewatering": ["AmaDrainer"],
+
+        "Wastewater": ["AmaDrainer"],
+
+        "Agriculture": ["Submersible"],
+
+        "Industrial Process": ["Movitec"],
+
+        "RO & Desalination": ["Movitec"]
+    }
 DATA_DIR = "data"
 
 
@@ -12,137 +33,197 @@ def load_json(filename):
         return json.load(f)
 
 
-CONFIG = load_json("chatbot_master_config.json")
-SELECTION_RULES = load_json("pump_selection_rules.json")
-AI_RULES = load_json("ai_recommendation_rules.json")
+# Load pump database
+ALL_PUMPS = load_json(
+    "generated/pump_master_database.json"
+)
 
+FIRE_PUMPS = []
 
-def load_database_files():
-    all_pumps = []
+try:
+    with open(
+        "data/fire_pump_database.json",
+        "r",
+        encoding="utf-8"
+    ) as f:
 
-    for file in CONFIG["database_files"]:
-        try:
-            data = load_json(file)
+        FIRE_PUMPS = json.load(f)
 
-            if isinstance(data, list):
-                all_pumps.extend(data)
+except Exception:
+    FIRE_PUMPS = []
 
-        except Exception as e:
-            print(f"Error loading {file}: {e}")
+for pump in FIRE_PUMPS:
 
-    return all_pumps
+    if "pump_family" not in pump:
 
+        model = pump.get(
+            "main_electric",
+            ""
+        )
 
-ALL_PUMPS = load_database_files()
+        if model.startswith("ETN"):
+            pump["pump_family"] = "Etanorm"
 
+        elif model.startswith("MCPK"):
+            pump["pump_family"] = "MCPK"
 
-def normalize(text):
-    return text.lower().strip()
+        elif model.startswith("CPK"):
+            pump["pump_family"] = "CPK"
 
-
-def find_application_rule(application):
-    application = normalize(application)
-
-    for rule in SELECTION_RULES:
-        if normalize(rule["application"]) == application:
-            return rule
-
-    return None
-
-
-def filter_by_application(application):
-    rule = find_application_rule(application)
-
-    if not rule:
-        return []
-
-    preferred = rule["preferred_pumps"]
-
-    results = []
-
-    for pump in ALL_PUMPS:
-        series = pump.get("series", "")
-
-        if series in preferred:
-            results.append(pump)
-
-    return results
-
+        else:
+            pump["pump_family"] = "Unknown"
 
 def hydraulic_match(flow, head, pumps):
+
     matched = []
 
     for pump in pumps:
 
-        flow_min = pump.get("flow_min")
-        flow_max = pump.get("flow_max")
+        flow_min = pump.get("flow_min", 0)
+        flow_max = pump.get("flow_max", 0)
 
-        head_min = pump.get("head_min")
-        head_max = pump.get("head_max")
+        head_min = pump.get("head_min", 0)
+        head_max = pump.get("head_max", 0)
 
         if (
-            flow_min is not None and
-            flow_max is not None and
-            head_min is not None and
-            head_max is not None
+            flow_min * 0.9 <= flow <= flow_max * 1.1
+            and
+            head_min * 0.9 <= head <= head_max * 1.1
         ):
+            matched.append(pump)
 
-            if (
-                flow_min <= flow <= flow_max and
-                head_min <= head <= head_max
-            ):
-                matched.append(pump)
+    # Exact matches found
+    if len(matched) >= 3:
+        return matched
 
-    return matched
-
-
-def rank_pumps(flow, head, pumps):
-
-    ranked = []
+    # -------------------------
+    # Find nearest alternatives
+    # -------------------------
+    alternatives = []
 
     for pump in pumps:
 
-        bep_flow = pump.get("bep_flow")
-        bep_head = pump.get("bep_head")
+        bep_flow = pump.get("bep_flow", 0)
+        bep_head = pump.get("bep_head", 0)
 
-        if bep_flow and bep_head:
+        distance = (
+            abs(flow - bep_flow)
+            +
+            abs(head - bep_head)
+        )
 
-            score = abs(flow - bep_flow) + abs(head - bep_head)
+        alternatives.append(
+            (distance, pump)
+        )
 
-            ranked.append((score, pump))
+    alternatives.sort(
+        key=lambda x: x[0]
+    )
 
-    ranked.sort(key=lambda x: x[0])
+    for _, pump in alternatives:
 
-    return [p[1] for p in ranked]
+        if pump not in matched:
+            matched.append(pump)
 
+        if len(matched) >= 5:
+            break
 
-def get_ai_strengths(series):
+    return matched
 
-    for item in AI_RULES:
+def rank_pumps(flow, head, pumps, application=None):
 
-        if item["series"] == series:
-            return item.get("strengths", [])
+    ranked = []
 
-    return []
+    preferred_series = APPLICATION_RULES.get(
+        application,
+        []
+    )
 
+    for pump in pumps:
+
+        bep_flow = pump.get("bep_flow", 0)
+        bep_head = pump.get("bep_head", 0)
+
+        hydraulic_score = (
+            abs(flow - bep_flow)
+            + abs(head - bep_head)
+        )
+
+        bonus = 0
+
+        if pump.get("series") in preferred_series:
+            bonus = 20
+
+        efficiency = pump.get(
+            "efficiency",
+            80
+        )
+
+        score = (
+            hydraulic_score
+            - bonus
+            - (efficiency / 10)
+        )
+
+        confidence = max(
+            50,
+            min(
+                100,
+                100 - int(hydraulic_score / 2)
+            )
+        )
+
+        pump["confidence"] = f"{confidence}%"
+
+        ranked.append(
+            (score, pump)
+        )
+
+    ranked.sort(
+        key=lambda x: x[0]
+    )
+
+    return [item[1] for item in ranked]
 
 def recommend_pumps(application, flow, head):
-
-    application_pumps = filter_by_application(application)
 
     hydraulic_pumps = hydraulic_match(
         flow,
         head,
-        application_pumps
+        ALL_PUMPS
     )
+
+    preferred_series = APPLICATION_RULES.get(
+         application,
+         []
+    )
+
+    if preferred_series:
+
+         hydraulic_pumps = [
+            p for p in hydraulic_pumps
+            if p.get("series") in preferred_series
+         ]
 
     ranked = rank_pumps(
         flow,
         head,
-        hydraulic_pumps
+        hydraulic_pumps,
+        application
     )
 
-    return ranked[:5]
+    unique = []
+    seen = set()
+
+    for pump in ranked:
+
+        base_model = pump["pump_model"].split("-")[0]
+
+        if base_model not in seen:
+            unique.append(pump)
+            seen.add(base_model)
+
+    return unique[:5]
 
 
 def build_response(application, flow, head):
@@ -152,11 +233,13 @@ def build_response(application, flow, head):
         flow,
         head
     )
-
+    
     if not recommendations:
+
         return {
             "status": "No Match Found",
-            "message": "No suitable pump found for given duty point."
+            "message": "No suitable pump found for given duty point.",
+            "recommendations": []
         }
 
     output = []
@@ -181,10 +264,13 @@ def build_response(application, flow, head):
             "motor_kw":
                 f"{pump.get('motor_kw')} kW",
 
-            "strengths":
-                get_ai_strengths(
-                    pump.get("series")
-                )
+            "confidence": pump["confidence"],
+
+            "strengths": [
+                "High efficiency",
+                "Reliable operation",
+                "Suitable for pressure boosting"
+            ]
         })
 
     return {
@@ -198,9 +284,76 @@ def build_response(application, flow, head):
 if __name__ == "__main__":
 
     result = build_response(
-        application="Fire Fighting",
-        flow=171,
-        head=70
+        application="Pressure Boosting",
+        flow=125,
+        head=120
     )
 
     print(json.dumps(result, indent=4))
+
+def get_fire_package(
+    fire_type,
+    flow,
+    head,
+    preferred_family=None
+):
+
+    if not FIRE_PUMPS:
+        return None
+
+    candidates = [
+        item
+        for item in FIRE_PUMPS
+        if item.get("fire_type") == fire_type
+    ]
+
+    if preferred_family:
+
+        family_matches = [
+            item
+            for item in candidates
+            if item.get("pump_family") == preferred_family
+        ]
+
+        if family_matches:
+            candidates = family_matches
+
+    if not candidates:
+        return None
+
+    suitable = []
+
+    for item in candidates:
+
+        if (
+            item["flow"] >= flow
+            and item["head"] >= head
+        ):
+            suitable.append(item)
+
+    if suitable:
+
+        suitable.sort(
+            key=lambda x: (
+                x["flow"] - flow
+                + x["head"] - head
+            )
+        )
+
+        return suitable[0]
+
+    best_match = None
+    best_score = 999999
+
+    for item in candidates:
+
+        score = (
+            abs(flow - item["flow"])
+            + abs(head - item["head"])
+        )
+
+        if score < best_score:
+            best_score = score
+            best_match = item
+
+    return best_match
