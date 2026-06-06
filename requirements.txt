@@ -19,3 +19,8 @@ reportlab
 Pillow
 pymupdf
 langchain-community
+
+PDF Generation
+Logo Display
+Curve Images
+PDF Processing
