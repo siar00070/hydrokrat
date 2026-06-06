@@ -9,18 +9,12 @@ openai
 faiss-cpu
 langchain
 langchain-openai
+langchain-community
 python-dotenv
 tiktoken
 PyPDF2
 sentence-transformers
 streamlit
-
 reportlab
 Pillow
 pymupdf
-langchain-community
-
-PDF Generation
-Logo Display
-Curve Images
-PDF Processing
